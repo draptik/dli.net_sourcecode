@@ -1,0 +1,7 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWeb\bin\Ploeh.Samples.Commerce.Web.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWeb\bin\Ploeh.Samples.Commerce.Web.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWeb\bin\Ploeh.Samples.Commerce.Domain.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWeb\bin\Ploeh.Samples.Commerce.Domain.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWeb\obj\Debug\Ploeh.Samples.Commerce.Web.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWeb\obj\Debug\Ploeh.Samples.Commerce.Web.pdb

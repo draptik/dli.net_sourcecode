@@ -1,0 +1,5 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\MenuModel\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\MenuModel\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.MenuModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\MenuModel\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.MenuModel.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\MenuModel\bin\AutoTest.Net\Ploeh.Samples.MenuModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\MenuModel\bin\AutoTest.Net\Ploeh.Samples.MenuModel.pdb

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDIConsole", "HelloDIConsole\HelloDIConsole.csproj", "{D894CEC8-6A07-4FE3-B7B9-5C58F1EDAA35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDIUnitTest", "HelloDIUnitTest\HelloDIUnitTest.csproj", "{70AEC371-FC04-438D-9DBF-5ED5E0CEB960}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HelloDI.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D894CEC8-6A07-4FE3-B7B9-5C58F1EDAA35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D894CEC8-6A07-4FE3-B7B9-5C58F1EDAA35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D894CEC8-6A07-4FE3-B7B9-5C58F1EDAA35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D894CEC8-6A07-4FE3-B7B9-5C58F1EDAA35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AEC371-FC04-438D-9DBF-5ED5E0CEB960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AEC371-FC04-438D-9DBF-5ED5E0CEB960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AEC371-FC04-438D-9DBF-5ED5E0CEB960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AEC371-FC04-438D-9DBF-5ED5E0CEB960}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

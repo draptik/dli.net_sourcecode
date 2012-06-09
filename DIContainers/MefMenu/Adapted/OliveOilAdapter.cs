@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Ploeh.Samples.MenuModel;
+using System.ComponentModel.Composition;
+
+namespace Ploeh.Samples.Menu.Mef.Adapted
+{
+    public class OliveOilAdapter
+    {
+        private readonly OliveOil oil;
+
+        public OliveOilAdapter()
+        {
+            this.oil = new OliveOil();
+        }
+
+        [Export]
+        public virtual OliveOil OliveOil
+        {
+            get { return this.oil; }
+        }
+    }
+}

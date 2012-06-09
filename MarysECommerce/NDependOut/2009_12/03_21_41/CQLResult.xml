@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CQLResult>
+  <Group Name="Code Quality" Status="Warn">
+    <Query Status="Warn" Name="Methods poorly commented (PercentageComment)" NbNodeMatched="1" NbNodeTested="134" KindOfNode=" methods">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Methods&amp;#0160;poorly&amp;#0160;commented&amp;#0160;(PercentageComment)&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;PercentageComment&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;lt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;20&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;NbLinesOfCode&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;PercentageComment&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;ASC&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;METHODS&amp;#0160;WHERE&amp;#0160;%Comment&amp;#0160;&amp;lt;&amp;#0160;20&amp;#0160;and&amp;#0160;that&amp;#0160;have&amp;#0160;at&amp;#0160;least&amp;#0160;10&amp;#0160;lines&amp;#0160;of&amp;#0160;code&amp;#0160;should&amp;#0160;be&amp;#0160;more&amp;#0160;commented.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;See&amp;#0160;the&amp;#0160;definition&amp;#0160;of&amp;#0160;the&amp;#0160;PercentageComment&amp;#0160;metric&amp;#0160;here&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;&lt;a href="http://www.ndepend.com/Metrics.aspx#PercentageComment" target="_blank"&gt;http://www.ndepend.com/Metrics.aspx#PercentageComment&lt;/a&gt;&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>methods</Column>
+        <Column>Percentage Comment</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="ErrorCodeToString(MembershipCreateStatus)" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController.ErrorCodeToString(MembershipCreateStatus)">
+          <Val>15</Val>
+          <Val>11</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>15</Val>
+          <Val>11</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>15</Val>
+          <Val>11</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>15</Val>
+          <Val>11</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>15</Val>
+          <Val>11</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Code Quality \ Type Metrics" Status="Ok" />
+  <Group Name="Design" Status="Warn">
+    <Query Status="Warn" Name="Class with no descendant should be sealed if possible" NbNodeMatched="9" NbNodeTested="113" KindOfNode=" types">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Class&amp;#0160;with&amp;#0160;no&amp;#0160;descendant&amp;#0160;should&amp;#0160;be&amp;#0160;sealed&amp;#0160;if&amp;#0160;possible&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000064'&gt;IsClass&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000064'&gt;NbChildren&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;==&lt;/font&gt;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsSealed&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsStatic&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;AND&amp;#0160;!IsPublic&amp;#0160;&amp;#0160;&amp;#0160;:&amp;#0160;You&amp;#0160;might&amp;#0160;want&amp;#0160;to&amp;#0160;add&amp;#0160;this&amp;#0160;condition&amp;#0160;if&amp;#0160;you&amp;#0160;are&amp;#0160;developping&amp;#0160;a&amp;#0160;framework&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;with&amp;#0160;classes&amp;#0160;that&amp;#0160;are&amp;#0160;intended&amp;#0160;to&amp;#0160;be&amp;#0160;sub-classed&amp;#0160;by&amp;#0160;your&amp;#0160;clients.&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;NbLinesOfCode&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>types</Column>
+        <Column># Children</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="FormsAuthenticationService" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.FormsAuthenticationService">
+          <Val>0</Val>
+          <Val>2</Val>
+        </Row>
+        <Row Name="MvcApplication" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.MvcApplication">
+          <Val>0</Val>
+          <Val>3</Val>
+        </Row>
+        <Row Name="_Default" FullName="Ploeh.Samples.Mary.ECommerce.WebUI._Default">
+          <Val>0</Val>
+          <Val>5</Val>
+        </Row>
+        <Row Name="HomeController" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.HomeController">
+          <Val>0</Val>
+          <Val>6</Val>
+        </Row>
+        <Row Name="CommerceObjectContext" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.CommerceObjectContext">
+          <Val>0</Val>
+          <Val>7</Val>
+        </Row>
+        <Row Name="AccountMembershipService" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountMembershipService">
+          <Val>0</Val>
+          <Val>9</Val>
+        </Row>
+        <Row Name="ProductService" FullName="Ploeh.Samples.Mary.ECommerce.Domain.ProductService">
+          <Val>0</Val>
+          <Val>9</Val>
+        </Row>
+        <Row Name="Product" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product">
+          <Val>0</Val>
+          <Val>27</Val>
+        </Row>
+        <Row Name="AccountController" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController">
+          <Val>0</Val>
+          <Val>72</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>0</Val>
+          <Val>140</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0</Val>
+          <Val>15.556</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+          <Val>2</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>0</Val>
+          <Val>72</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+          <Val>21.135</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+          <Val>446.69</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query Status="Warn" Name="Classes that are candidate to be turned into Structures" NbNodeMatched="5" NbNodeTested="113" KindOfNode=" types">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Classes&amp;#0160;that&amp;#0160;are&amp;#0160;candidate&amp;#0160;to&amp;#0160;be&amp;#0160;turned&amp;#0160;into&amp;#0160;Structures&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000064'&gt;IsClass&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000064'&gt;SizeOfInst&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;lt;=&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;16&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Structure&amp;#0160;instance&amp;#0160;must&amp;#0160;not&amp;#0160;be&amp;#0160;too&amp;#0160;big,&amp;#0160;else&amp;#0160;it&amp;#0160;degrades&amp;#0160;performance.&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000064'&gt;NbChildren&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;==&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Must&amp;#0160;not&amp;#0160;have&amp;#0160;children&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000064'&gt;DepthOfInheritance&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;==&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;1&lt;/b&gt;&amp;#0160;&lt;font color='#008000'&gt;//&amp;#0160;Must&amp;#0160;derive&amp;#0160;directly&amp;#0160;from&amp;#0160;System.Object&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;AND&amp;#0160;IsSealed&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;:&amp;#0160;You&amp;#0160;might&amp;#0160;want&amp;#0160;to&amp;#0160;add&amp;#0160;this&amp;#0160;condition&amp;#0160;to&amp;#0160;restreint&amp;#0160;the&amp;#0160;set.&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;AND&amp;#0160;IsImmutable&amp;#0160;:&amp;#0160;Structures&amp;#0160;should&amp;#0160;be&amp;#0160;immutable&amp;#0160;type.&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;AND&amp;#0160;!IsPublic&amp;#0160;&amp;#0160;&amp;#0160;:&amp;#0160;You&amp;#0160;might&amp;#0160;want&amp;#0160;to&amp;#0160;add&amp;#0160;this&amp;#0160;condition&amp;#0160;if&amp;#0160;you&amp;#0160;are&amp;#0160;developping&amp;#0160;a&amp;#0160;framework&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;with&amp;#0160;classes&amp;#0160;that&amp;#0160;are&amp;#0160;intended&amp;#0160;to&amp;#0160;be&amp;#0160;sub-classed&amp;#0160;by&amp;#0160;your&amp;#0160;clients.&lt;br/&gt;&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>types</Column>
+        <Column>Size of instance</Column>
+        <Column># Children</Column>
+        <Column>Depth of inheritance</Column>
+      </Columns>
+      <Rows>
+        <Row Name="ProductService" FullName="Ploeh.Samples.Mary.ECommerce.Domain.ProductService">
+          <Val>4</Val>
+          <Val>0</Val>
+          <Val>1</Val>
+        </Row>
+        <Row Name="ProductService+&lt;&gt;c__DisplayClass2" FullName="Ploeh.Samples.Mary.ECommerce.Domain.ProductService+&lt;&gt;c__DisplayClass2">
+          <Val>16</Val>
+          <Val>0</Val>
+          <Val>1</Val>
+        </Row>
+        <Row Name="&lt;&gt;f__AnonymousType0&lt;&lt;controller&gt;j__TPar,&lt;action&gt;j__TPar,&lt;id&gt;j__TPar&gt;" FullName="&lt;&gt;f__AnonymousType0&lt;&lt;controller&gt;j__TPar,&lt;action&gt;j__TPar,&lt;id&gt;j__TPar&gt;">
+          <Val>12</Val>
+          <Val>0</Val>
+          <Val>1</Val>
+        </Row>
+        <Row Name="FormsAuthenticationService" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.FormsAuthenticationService">
+          <Val>0</Val>
+          <Val>0</Val>
+          <Val>1</Val>
+        </Row>
+        <Row Name="AccountMembershipService" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountMembershipService">
+          <Val>4</Val>
+          <Val>0</Val>
+          <Val>1</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>36</Val>
+          <Val>0</Val>
+          <Val>5</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>7.2</Val>
+          <Val>0</Val>
+          <Val>1</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+          <Val>0</Val>
+          <Val>1</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>16</Val>
+          <Val>0</Val>
+          <Val>1</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>5.8788</Val>
+          <Val>0</Val>
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>34.56</Val>
+          <Val>0</Val>
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query Status="Warn" Name="Avoid namespaces with few types" NbNodeMatched="4" NbNodeTested="27" KindOfNode=" namespaces">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Avoid&amp;#0160;namespaces&amp;#0160;with&amp;#0160;few&amp;#0160;types&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;NAMESPACES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;NbTypes&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;lt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;5&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;NbTypes&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;ASC&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Make&amp;#0160;sure&amp;#0160;that&amp;#0160;there&amp;#0160;is&amp;#0160;a&amp;#0160;logical&amp;#0160;organization&amp;#0160;to&amp;#0160;each&amp;#0160;of&amp;#0160;your&amp;#0160;namespaces,&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;and&amp;#0160;that&amp;#0160;there&amp;#0160;is&amp;#0160;a&amp;#0160;valid&amp;#0160;reason&amp;#0160;for&amp;#0160;putting&amp;#0160;types&amp;#0160;in&amp;#0160;a&amp;#0160;sparsely&amp;#0160;populated&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;namespace.&amp;#0160;Namespaces&amp;#0160;should&amp;#0160;contain&amp;#0160;types&amp;#0160;that&amp;#0160;are&amp;#0160;used&amp;#0160;together&amp;#0160;in&amp;#0160;most&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;scenarios.&amp;#0160;When&amp;#0160;their&amp;#0160;applications&amp;#0160;are&amp;#0160;mutually&amp;#0160;exclusive,&amp;#0160;types&amp;#0160;should&amp;#0160;be&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;located&amp;#0160;in&amp;#0160;separate&amp;#0160;namespaces&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>namespaces</Column>
+        <Column># Types</Column>
+      </Columns>
+      <Rows>
+        <Row Name="" FullName="">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Ploeh.Samples.Mary.ECommerce.WebUI" FullName="Ploeh.Samples.Mary.ECommerce.WebUI">
+          <Val>2</Val>
+        </Row>
+        <Row Name="Ploeh.Samples.Mary.ECommerce.Data.Sql" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql">
+          <Val>2</Val>
+        </Row>
+        <Row Name="Ploeh.Samples.Mary.ECommerce.Domain" FullName="Ploeh.Samples.Mary.ECommerce.Domain">
+          <Val>3</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>8</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>2</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>3</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0.7071068</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0.5</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query Status="Warn" Name="Declare types in namespaces" NbNodeMatched="1" NbNodeTested="27" KindOfNode=" namespaces">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Declare&amp;#0160;types&amp;#0160;in&amp;#0160;namespaces&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;NAMESPACES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;NameIs&lt;/font&gt;&amp;#0160;&lt;font color='#A31515'&gt;""&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsInFrameworkAssembly&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Types&amp;#0160;are&amp;#0160;declared&amp;#0160;within&amp;#0160;namespaces&amp;#0160;to&amp;#0160;prevent&amp;#0160;name&amp;#0160;collisions,&amp;#0160;and&amp;#0160;as&amp;#0160;a&amp;#0160;way&amp;#0160;of&amp;#0160;organizing&amp;#0160;related&amp;#0160;types&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;in&amp;#0160;an&amp;#0160;object&amp;#0160;hierarchy.&amp;#0160;Types&amp;#0160;outside&amp;#0160;any&amp;#0160;named&amp;#0160;namespace&amp;#0160;are&amp;#0160;in&amp;#0160;a&amp;#0160;global&amp;#0160;namespace&amp;#0160;that&amp;#0160;cannot&amp;#0160;be&amp;#0160;referenced&amp;#0160;in&amp;#0160;code.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;If&amp;#0160;an&amp;#0160;anonymous&amp;#0160;namespace&amp;#0160;can&amp;#0160;be&amp;#0160;found,&amp;#0160;it&amp;#0160;means&amp;#0160;that&amp;#0160;it&amp;#0160;contains&amp;#0160;types&amp;#0160;outside&amp;#0160;of&amp;#0160;namespaces.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>namespaces</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="" FullName="">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query Status="Warn" Name="Assemblies with poor cohesion (RelationalCohesion)" NbNodeMatched="3" NbNodeTested="11" KindOfNode=" assemblies">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Assemblies&amp;#0160;with&amp;#0160;poor&amp;#0160;cohesion&amp;#0160;(RelationalCohesion)&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;ASSEMBLIES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;RelationalCohesion&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;lt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;1.5&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;RelationalCohesion&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;4.0&lt;/b&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;As&amp;#0160;classes&amp;#0160;inside&amp;#0160;an&amp;#0160;assembly&amp;#0160;should&amp;#0160;be&amp;#0160;strongly&amp;#0160;related,&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;the&amp;#0160;cohesion&amp;#0160;should&amp;#0160;be&amp;#0160;high.&amp;#0160;On&amp;#0160;the&amp;#0160;other&amp;#0160;hand,&amp;#0160;a&amp;#0160;value&amp;#0160;which&amp;#0160;is&amp;#0160;too&amp;#0160;high&amp;#0160;may&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;indicate&amp;#0160;over-coupling.&amp;#0160;A&amp;#0160;good&amp;#0160;range&amp;#0160;for&amp;#0160;RelationalCohesion&amp;#0160;is&amp;#0160;1.5&amp;#0160;to&amp;#0160;4.0.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;See&amp;#0160;the&amp;#0160;definition&amp;#0160;of&amp;#0160;the&amp;#0160;RelationalCohesion&amp;#0160;metric&amp;#0160;here&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;&lt;a href="http://www.ndepend.com/Metrics.aspx#RelationalCohesion" target="_blank"&gt;http://www.ndepend.com/Metrics.aspx#RelationalCohesion&lt;/a&gt;&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>assemblies</Column>
+        <Column>Relational cohesion</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Ploeh.Samples.Mary.ECommerce.Data.Sql" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Ploeh.Samples.Mary.ECommerce.Domain" FullName="Ploeh.Samples.Mary.ECommerce.Domain">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Ploeh.Samples.Mary.ECommerce.WebUI" FullName="Ploeh.Samples.Mary.ECommerce.WebUI">
+          <Val>0.8888889</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>2.8889</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0.9629629</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0.8888889</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0.05237883</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0.002743542</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Design \ Performance" Status="Warn">
+    <Query Status="Warn" Name="Instances size shouldn't be too big (SizeOfInst)" NbNodeMatched="2" NbNodeTested="113" KindOfNode=" types">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Instances&amp;#0160;size&amp;#0160;shouldn't&amp;#0160;be&amp;#0160;too&amp;#0160;big&amp;#0160;(SizeOfInst)&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;SizeOfInst&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;64&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;ORDER&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;BY&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;SizeOfInst&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;DESC&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;TYPES&amp;#0160;WHERE&amp;#0160;SizeOfInst&amp;#0160;&amp;gt;&amp;#0160;64&amp;#0160;might&amp;#0160;degrade&amp;#0160;performance&amp;#0160;(depending&amp;#0160;on&amp;#0160;the&amp;#0160;number&amp;#0160;of&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;instances&amp;#0160;created&amp;#0160;at&amp;#0160;runtime)&amp;#0160;and&amp;#0160;might&amp;#0160;be&amp;#0160;hard&amp;#0160;to&amp;#0160;maintain.&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;However&amp;#0160;it&amp;#0160;is&amp;#0160;not&amp;#0160;a&amp;#0160;rule&amp;#0160;since&amp;#0160;sometime&amp;#0160;there&amp;#0160;is&amp;#0160;no&amp;#0160;alternative&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;(the&amp;#0160;size&amp;#0160;of&amp;#0160;instances&amp;#0160;of&amp;#0160;the&amp;#0160;System.Net.NetworkInformation.SystemIcmpV6Statistics&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;standard&amp;#0160;class&amp;#0160;is&amp;#0160;2064&amp;#0160;bytes).&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;See&amp;#0160;the&amp;#0160;definition&amp;#0160;of&amp;#0160;the&amp;#0160;SizeOfInst&amp;#0160;metric&amp;#0160;here&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;&lt;a href="http://www.ndepend.com/Metrics.aspx#SizeOfInst" target="_blank"&gt;http://www.ndepend.com/Metrics.aspx#SizeOfInst&lt;/a&gt;&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>types</Column>
+        <Column>Size of instance</Column>
+      </Columns>
+      <Rows>
+        <Row Name="_Default" FullName="Ploeh.Samples.Mary.ECommerce.WebUI._Default">
+          <Val>358</Val>
+        </Row>
+        <Row Name="MvcApplication" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.MvcApplication">
+          <Val>105</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>463</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>231.5</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>105</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>358</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>126.5</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>16002.2</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query Status="Warn" Name="Boxing/unboxing should be avoided (Method)" NbNodeMatched="7" NbNodeTested="134" KindOfNode=" methods">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Boxing/unboxing&amp;#0160;should&amp;#0160;be&amp;#0160;avoided&amp;#0160;(Method)&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Percentage&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;5&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;IsUsingBoxing&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;OR&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;IsUsingUnboxing&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Thanks&amp;#0160;to&amp;#0160;generics,&amp;#0160;boxing&amp;#0160;and&amp;#0160;unboxing&amp;#0160;should&amp;#0160;be&amp;#0160;rare.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>methods</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>38</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>5.4286</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>10</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>3.6978</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>13.673</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Unused Code / Dead Code" Status="Warn">
+    <Query Status="Warn" Name="Potentially unused methods" NbNodeMatched="2" NbNodeTested="73" KindOfNode=" methods">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Potentially&amp;#0160;unused&amp;#0160;methods&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&lt;/font&gt;&lt;font color='#000064'&gt;MethodCa&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;==&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Ca=0&amp;#0160;-&amp;gt;&amp;#0160;No&amp;#0160;Afferent&amp;#0160;Coupling&amp;#0160;-&amp;gt;&amp;#0160;The&amp;#0160;method&amp;#0160;is&amp;#0160;not&amp;#0160;used&amp;#0160;in&amp;#0160;the&amp;#0160;context&amp;#0160;of&amp;#0160;this&amp;#0160;application.&lt;br/&gt;&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsPublic&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Public&amp;#0160;methods&amp;#0160;might&amp;#0160;be&amp;#0160;used&amp;#0160;by&amp;#0160;client&amp;#0160;applications&amp;#0160;of&amp;#0160;your&amp;#0160;assemblies.&lt;br/&gt;&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsEntryPoint&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Main()&amp;#0160;method&amp;#0160;is&amp;#0160;not&amp;#0160;used&amp;#0160;by-design.&lt;br/&gt;&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsExplicitInterfaceImpl&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;#0160;&lt;font color='#008000'&gt;//&amp;#0160;The&amp;#0160;IL&amp;#0160;code&amp;#0160;never&amp;#0160;explicitely&amp;#0160;calls&amp;#0160;explicit&amp;#0160;interface&amp;#0160;methods&amp;#0160;implementation.&lt;br/&gt;&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsClassConstructor&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;The&amp;#0160;IL&amp;#0160;code&amp;#0160;never&amp;#0160;explicitely&amp;#0160;calls&amp;#0160;class&amp;#0160;constructors.&lt;br/&gt;&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsFinalizer&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;The&amp;#0160;IL&amp;#0160;code&amp;#0160;never&amp;#0160;explicitely&amp;#0160;calls&amp;#0160;finalizers.&lt;br/&gt;&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>methods</Column>
+        <Column>Afferent coupling at method level (MethodCa)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Application_Start()" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.MvcApplication.Application_Start()">
+          <Val>0</Val>
+        </Row>
+        <Row Name="OnActionExecuting(ActionExecutingContext)" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController.OnActionExecuting(ActionExecutingContext)">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Encapsulation" Status="Warn" />
+  <Group Name="Encapsulation \ Methods Optimal Encapsulation" Status="Warn">
+    <Query Status="Warn" Name="Methods that could be declared as 'internal' in C#,  'Friend' in VB.NET" NbNodeMatched="2" NbNodeTested="134" KindOfNode=" methods">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Methods&amp;#0160;that&amp;#0160;could&amp;#0160;be&amp;#0160;declared&amp;#0160;as&amp;#0160;'internal'&amp;#0160;in&amp;#0160;C#,&amp;#0160;&amp;#0160;'Friend'&amp;#0160;in&amp;#0160;VB.NET&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;CouldBeInternal&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>methods</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name=".ctor()" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.FormsAuthenticationService..ctor()">
+          <Val>N/A</Val>
+        </Row>
+        <Row Name=".ctor()" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountMembershipService..ctor()">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>0.5</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0.5</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0.25</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query Status="Warn" Name="Methods that could be declared as 'private' in C#,  'Private' in VB.NET" NbNodeMatched="10" NbNodeTested="134" KindOfNode=" methods">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Methods&amp;#0160;that&amp;#0160;could&amp;#0160;be&amp;#0160;declared&amp;#0160;as&amp;#0160;'private'&amp;#0160;in&amp;#0160;C#,&amp;#0160;&amp;#0160;'Private'&amp;#0160;in&amp;#0160;VB.NET&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;METHODS&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;CouldBePrivate&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>methods</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="AddToProducts(Product)" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.CommerceObjectContext.AddToProducts(Product)">
+          <Val>1</Val>
+        </Row>
+        <Row Name=".ctor(String)" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.CommerceObjectContext..ctor(String)">
+          <Val>1</Val>
+        </Row>
+        <Row Name=".ctor(EntityConnection)" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.CommerceObjectContext..ctor(EntityConnection)">
+          <Val>1</Val>
+        </Row>
+        <Row Name="CreateProduct(Int32,String,String,Decimal,Boolean)" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product.CreateProduct(Int32,String,String,Decimal,Boolean)">
+          <Val>7</Val>
+        </Row>
+        <Row Name="Page_Load(Object,EventArgs)" FullName="Ploeh.Samples.Mary.ECommerce.WebUI._Default.Page_Load(Object,EventArgs)">
+          <Val>5</Val>
+        </Row>
+        <Row Name=".ctor()" FullName="Ploeh.Samples.Mary.ECommerce.WebUI._Default..ctor()">
+          <Val>N/A</Val>
+        </Row>
+        <Row Name="RegisterRoutes(RouteCollection)" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.MvcApplication.RegisterRoutes(RouteCollection)">
+          <Val>2</Val>
+        </Row>
+        <Row Name="Application_Start()" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.MvcApplication.Application_Start()">
+          <Val>1</Val>
+        </Row>
+        <Row Name=".ctor()" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.MvcApplication..ctor()">
+          <Val>N/A</Val>
+        </Row>
+        <Row Name="get_FormsAuth()" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController.get_FormsAuth()">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>18</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>1.8</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>7</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>2.2271</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>4.96</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Encapsulation \ Types Optimal Encapsulation" Status="Warn">
+    <Query Status="Warn" Name="Types that could be declared as internal" NbNodeMatched="8" NbNodeTested="113" KindOfNode=" types">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Types&amp;#0160;that&amp;#0160;could&amp;#0160;be&amp;#0160;declared&amp;#0160;as&amp;#0160;internal&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;CouldBeInternal&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>types</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="_Default" FullName="Ploeh.Samples.Mary.ECommerce.WebUI._Default">
+          <Val>5</Val>
+        </Row>
+        <Row Name="MvcApplication" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.MvcApplication">
+          <Val>3</Val>
+        </Row>
+        <Row Name="AccountController" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController">
+          <Val>72</Val>
+        </Row>
+        <Row Name="IFormsAuthentication" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.IFormsAuthentication">
+          <Val>N/A</Val>
+        </Row>
+        <Row Name="FormsAuthenticationService" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.FormsAuthenticationService">
+          <Val>2</Val>
+        </Row>
+        <Row Name="IMembershipService" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.IMembershipService">
+          <Val>N/A</Val>
+        </Row>
+        <Row Name="AccountMembershipService" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountMembershipService">
+          <Val>9</Val>
+        </Row>
+        <Row Name="HomeController" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.HomeController">
+          <Val>6</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>97</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>12.125</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>72</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>22.811</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>520.36</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Encapsulation \ Fields Optimal Encapsulation" Status="Ok" />
+  <Group Name="Diff / Changes / Evolution" Status="Ok" />
+  <Group Name="Test Coverage" Status="Ok" />
+  <Group Name="Purity / Immutability / Side-Effects" Status="Warn">
+    <Query Status="Warn" Name="Fields should be marked as ReadOnly when possible" NbNodeMatched="1" NbNodeTested="16" KindOfNode=" fields">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Fields&amp;#0160;should&amp;#0160;be&amp;#0160;marked&amp;#0160;as&amp;#0160;ReadOnly&amp;#0160;when&amp;#0160;possible&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;FIELDS&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;IsImmutable&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsInitOnly&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;A&amp;#0160;field&amp;#0160;that&amp;#0160;matches&amp;#0160;the&amp;#0160;condition&amp;#0160;IsImmutable&amp;#0160;is&amp;#0160;a&amp;#0160;field&amp;#0160;that&amp;#0160;is&amp;#0160;assigned&amp;#0160;only&amp;#0160;by&amp;#0160;constructors&amp;#0160;of&amp;#0160;its&amp;#0160;class.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;For&amp;#0160;an&amp;#0160;instance&amp;#0160;field,&amp;#0160;this&amp;#0160;means&amp;#0160;its&amp;#0160;value&amp;#0160;will&amp;#0160;remain&amp;#0160;constant&amp;#0160;throught&amp;#0160;the&amp;#0160;lifetime&amp;#0160;of&amp;#0160;the&amp;#0160;object.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;For&amp;#0160;a&amp;#0160;static&amp;#0160;field,&amp;#0160;this&amp;#0160;means&amp;#0160;its&amp;#0160;value&amp;#0160;will&amp;#0160;remain&amp;#0160;constant&amp;#0160;throught&amp;#0160;the&amp;#0160;lifetime&amp;#0160;of&amp;#0160;the&amp;#0160;program.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;In&amp;#0160;both&amp;#0160;cases,&amp;#0160;such&amp;#0160;field&amp;#0160;can&amp;#0160;safely&amp;#0160;be&amp;#0160;marked&amp;#0160;with&amp;#0160;the&amp;#0160;C#&amp;#0160;readonly&amp;#0160;keyword&amp;#0160;(ReadOnly&amp;#0160;in&amp;#0160;VB.NET).&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;The&amp;#0160;condition&amp;#0160;IsInitOnly&amp;#0160;matches&amp;#0160;fields&amp;#0160;that&amp;#0160;are&amp;#0160;marked&amp;#0160;with&amp;#0160;the&amp;#0160;C#&amp;#0160;readonly&amp;#0160;keyword&amp;#0160;(ReadOnly&amp;#0160;in&amp;#0160;VB.NET).&lt;br/&gt;&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>fields</Column>
+        <Column>Size of instance</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>4</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>4</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>4</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>4</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Naming Conventions" Status="Warn">
+    <Query Status="Warn" Name="Instance fields should be prefixed with a 'm_'" NbNodeMatched="8" NbNodeTested="16" KindOfNode=" fields">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Instance&amp;#0160;fields&amp;#0160;should&amp;#0160;be&amp;#0160;prefixed&amp;#0160;with&amp;#0160;a&amp;#0160;'m_'&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;FIELDS&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;NameLike&lt;/font&gt;&amp;#0160;&lt;font color='#A31515'&gt;"^m_"&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsStatic&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsLiteral&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsGeneratedByCompiler&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsSpecialName&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsEventDelegateObject&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;This&amp;#0160;naming&amp;#0160;convention&amp;#0160;provokes&amp;#0160;debate.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Don't&amp;#0160;hesitate&amp;#0160;to&amp;#0160;customize&amp;#0160;the&amp;#0160;regex&amp;#0160;of&amp;#0160;NameLike&amp;#0160;to&amp;#0160;your&amp;#0160;preference.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>fields</Column>
+        <Column>Size of instance</Column>
+      </Columns>
+      <Rows>
+        <Row Name="_Products" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.CommerceObjectContext._Products">
+          <Val>4</Val>
+        </Row>
+        <Row Name="_ProductId" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product._ProductId">
+          <Val>4</Val>
+        </Row>
+        <Row Name="_Name" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product._Name">
+          <Val>4</Val>
+        </Row>
+        <Row Name="_Description" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product._Description">
+          <Val>4</Val>
+        </Row>
+        <Row Name="_UnitPrice" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product._UnitPrice">
+          <Val>16</Val>
+        </Row>
+        <Row Name="_IsFeatured" FullName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product._IsFeatured">
+          <Val>1</Val>
+        </Row>
+        <Row Name="objectContext" FullName="Ploeh.Samples.Mary.ECommerce.Domain.ProductService.objectContext">
+          <Val>4</Val>
+        </Row>
+        <Row Name="_provider" FullName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountMembershipService._provider">
+          <Val>4</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>41</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>5.125</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>16</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>4.226</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>17.859</Val>
+        </Row>
+      </Rows>
+    </Query>
+    <Query Status="Warn" Name="Types name should begin with an Upper character" NbNodeMatched="1" NbNodeTested="113" KindOfNode=" types">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Types&amp;#0160;name&amp;#0160;should&amp;#0160;begin&amp;#0160;with&amp;#0160;an&amp;#0160;Upper&amp;#0160;character&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TOP&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;10&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;TYPES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;NameLike&lt;/font&gt;&amp;#0160;&lt;font color='#A31515'&gt;"^[A-Z]"&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;The&amp;#0160;name&amp;#0160;of&amp;#0160;a&amp;#0160;type&amp;#0160;should&amp;#0160;begin&amp;#0160;with&amp;#0160;an&amp;#0160;Upper&amp;#0160;letter.&lt;br/&gt;&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsGeneratedByCompiler&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&amp;#0160;&lt;font color='#008000'&gt;//&amp;#0160;Except&amp;#0160;if&amp;#0160;it&amp;#0160;is&amp;#0160;generated&amp;#0160;by&amp;#0160;compiler&amp;#0160;or&amp;#0160;...&lt;br/&gt;&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsInFrameworkAssembly&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;...&amp;#0160;if&amp;#0160;it&amp;#0160;is&amp;#0160;declared&amp;#0160;in&amp;#0160;a&amp;#0160;framework&amp;#0160;assembly.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>types</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="_Default" FullName="Ploeh.Samples.Mary.ECommerce.WebUI._Default">
+          <Val>5</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>5</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>5</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>5</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>5</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Naming Conventions \ Name too long" Status="Ok" />
+  <Group Name=".NET Framework Usage" Status="Warn" />
+  <Group Name=".NET Framework Usage \ System" Status="Warn">
+    <Query Status="Warn" Name="Mark assemblies with CLSCompliant" NbNodeMatched="3" NbNodeTested="11" KindOfNode=" assemblies">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;Mark&amp;#0160;assemblies&amp;#0160;with&amp;#0160;CLSCompliant&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;ASSEMBLIES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;HasAttribute&lt;/font&gt;&amp;#0160;&lt;font color='#A31515'&gt;"OPTIONAL:System.CLSCompliantAttribute"&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&amp;#0160;&amp;#0160;&lt;/font&gt;&lt;font color='#000000'&gt;!&lt;/font&gt;&lt;font color='#000064'&gt;IsFrameworkAssembly&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;The&amp;#0160;Common&amp;#0160;Language&amp;#0160;Specification&amp;#0160;(CLS)&amp;#0160;defines&amp;#0160;naming&amp;#0160;restrictions,&amp;#0160;data&amp;#0160;types,&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;and&amp;#0160;rules&amp;#0160;to&amp;#0160;which&amp;#0160;assemblies&amp;#0160;must&amp;#0160;conform&amp;#0160;if&amp;#0160;they&amp;#0160;are&amp;#0160;to&amp;#0160;be&amp;#0160;used&amp;#0160;across&amp;#0160;programming&amp;#0160;languages.&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;Good&amp;#0160;design&amp;#0160;dictates&amp;#0160;that&amp;#0160;all&amp;#0160;assemblies&amp;#0160;explicitly&amp;#0160;indicate&amp;#0160;CLS&amp;#0160;compliance&amp;#0160;with&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;CLSCompliantAttribute.&amp;#0160;If&amp;#0160;the&amp;#0160;attribute&amp;#0160;is&amp;#0160;not&amp;#0160;present&amp;#0160;on&amp;#0160;an&amp;#0160;assembly,&amp;#0160;the&amp;#0160;assembly&amp;#0160;is&amp;#0160;not&amp;#0160;compliant.&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>assemblies</Column>
+        <Column># lines of code (LOC)</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>141</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>47</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>10</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>97</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>36.688</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>1346</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name=".NET Framework Usage \ System.Collection" Status="Ok" />
+  <Group Name=".NET Framework Usage \ System.Runtime.InteropServices" Status="Ok" />
+  <Group Name=".NET Framework Usage \ System.Threading" Status="Ok" />
+  <Group Name=".NET Framework Usage \ System.Xml" Status="Ok" />
+  <Group Name="Constraints extracted from Source Code" Status="Not yet compiled" />
+</CQLResult>

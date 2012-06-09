@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="urn:ploeh:productMgtSrvc" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" targetNamespace="urn:ploeh:productMgtSrvc" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:ploeh:productMgtSrvc/Imports">
+      <xsd:import namespace="urn:ploeh:productMgtSrvc" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IProductManagementService_DeleteProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProduct" />
+  </wsdl:message>
+  <wsdl:message name="IProductManagementService_DeleteProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProductManagementService_InsertProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertProduct" />
+  </wsdl:message>
+  <wsdl:message name="IProductManagementService_InsertProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProductManagementService_SelectProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectProduct" />
+  </wsdl:message>
+  <wsdl:message name="IProductManagementService_SelectProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="IProductManagementService_UpdateProduct_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateProduct" />
+  </wsdl:message>
+  <wsdl:message name="IProductManagementService_UpdateProduct_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateProductResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IProductManagementService">
+    <wsdl:operation name="DeleteProduct">
+      <wsdl:input wsaw:Action="urn:ploeh:productMgtSrvc/IProductManagementService/DeleteProduct" message="tns:IProductManagementService_DeleteProduct_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ploeh:productMgtSrvc/IProductManagementService/DeleteProductResponse" message="tns:IProductManagementService_DeleteProduct_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertProduct">
+      <wsdl:input wsaw:Action="urn:ploeh:productMgtSrvc/IProductManagementService/InsertProduct" message="tns:IProductManagementService_InsertProduct_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ploeh:productMgtSrvc/IProductManagementService/InsertProductResponse" message="tns:IProductManagementService_InsertProduct_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectProduct">
+      <wsdl:input wsaw:Action="urn:ploeh:productMgtSrvc/IProductManagementService/SelectProduct" message="tns:IProductManagementService_SelectProduct_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ploeh:productMgtSrvc/IProductManagementService/SelectProductResponse" message="tns:IProductManagementService_SelectProduct_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProduct">
+      <wsdl:input wsaw:Action="urn:ploeh:productMgtSrvc/IProductManagementService/UpdateProduct" message="tns:IProductManagementService_UpdateProduct_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ploeh:productMgtSrvc/IProductManagementService/UpdateProductResponse" message="tns:IProductManagementService_UpdateProduct_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DefaultBinding_IProductManagementService" type="tns:IProductManagementService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DeleteProduct">
+      <soap:operation soapAction="urn:ploeh:productMgtSrvc/IProductManagementService/DeleteProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertProduct">
+      <soap:operation soapAction="urn:ploeh:productMgtSrvc/IProductManagementService/InsertProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectProduct">
+      <soap:operation soapAction="urn:ploeh:productMgtSrvc/IProductManagementService/SelectProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateProduct">
+      <soap:operation soapAction="urn:ploeh:productMgtSrvc/IProductManagementService/UpdateProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

@@ -1,0 +1,5 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatterns\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatterns\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.DI.AntiPatterns.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatterns\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.DI.AntiPatterns.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatterns\bin\AutoTest.Net\Ploeh.Samples.DI.AntiPatterns.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatterns\bin\AutoTest.Net\Ploeh.Samples.DI.AntiPatterns.pdb

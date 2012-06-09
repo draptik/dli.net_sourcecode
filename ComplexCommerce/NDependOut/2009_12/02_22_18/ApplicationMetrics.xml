@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ApplicationMetrics NAsm="4" NbLinesOfCode="572" NbLinesOfComment="297" PercentageComment="34" NType="56" NClass="53" NAbstractClass="8" NInterface="3" NValueType="0" NExceptionType="0" NAttributeType="0" NDelegateType="0" NEnumType="0" NGenericMethodsDefinition="0" NGenericTypesDefinition="1" NILInstruction="4330" PercentPublicType="83,93" PercentPublicMethod="88,73" PercentClassWithAtLeastOnePublicField="0">
+  <PropertyOnInterface Occ="3" Avg="0,33" StdDev="0,47" MaxVal="1" MaxName="Ploeh.Samples.Commerce.Web.PresentationModel.Controllers.IMembershipService" />
+  <MethodOnInterface Occ="3" Avg="3" StdDev="0,82" MaxVal="4" MaxName="Ploeh.Samples.Commerce.Web.PresentationModel.Controllers.IMembershipService" />
+  <ArgOnMethodOnInterface Occ="9" Avg="1,67" StdDev="1,15" MaxVal="3" MaxName="Ploeh.Samples.Commerce.Domain.IBasketService.AddToBasket(Int32,Int32,IPrincipal)" />
+  <PublicPropertyOnClass Occ="53" Avg="1,28" StdDev="1,95" MaxVal="8" MaxName="Ploeh.Samples.Commerce.Data.Sql.User" />
+  <PublicMethodOnClass Occ="53" Avg="4,43" StdDev="4,19" MaxVal="18" MaxName="Ploeh.Samples.Commerce.Data.Sql.User" />
+  <ArgOnPublicMethodOnClass Occ="235" Avg="0,74" StdDev="0,95" MaxVal="6" MaxName="Ploeh.Samples.Commerce.Data.Sql.User.CreateUser(Guid,Guid,String,String,Boolean,DateTime)" />
+  <ILInstructionInNonAbstractMethods Occ="254" Avg="17,05" StdDev="20,23" MaxVal="190" MaxName="Ploeh.Samples.Commerce.Data.Sql.SqlBasketRepository.AddToBasket(Int32,Int32,IPrincipal)" />
+  <TypeWithTheMostILInstruction Occ="53" Avg="81,7" StdDev="99,63" MaxVal="559" MaxName="Ploeh.Samples.Commerce.Web.PresentationModel.Controllers.AccountController" />
+  <MethodCC Occ="254" Avg="1,55" StdDev="1,3" MaxVal="12" MaxName="Ploeh.Samples.Commerce.Web.PresentationModel.Controllers.AccountController.ErrorCodeToString(MembershipCreateStatus)" />
+</ApplicationMetrics>

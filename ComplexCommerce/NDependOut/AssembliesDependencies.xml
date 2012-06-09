@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AssemblyDependencies>
+  <Dependencies_For Assembly="Ploeh.Samples.Commerce.Domain v1.0.0.0">
+    <DependsOn>
+      <DependsOn_Name>mscorlib v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Core v3.5.0.0</DependsOn_Name>
+    </DependsOn>
+    <ReferencedBy>
+      <ReferencedBy_Name>Ploeh.Samples.Commerce.Web v1.0.0.0</ReferencedBy_Name>
+      <ReferencedBy_Name>Ploeh.Samples.Commerce.Web.PresentationModel v1.0.0.0</ReferencedBy_Name>
+      <ReferencedBy_Name>Ploeh.Samples.Commerce.Data.Sql v1.0.0.0</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="Ploeh.Samples.Commerce.Data.Sql v1.0.0.0">
+    <DependsOn>
+      <DependsOn_Name>Ploeh.Samples.Commerce.Domain v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Data.Entity v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>mscorlib v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Core v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Runtime.Serialization v3.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Xml v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System v2.0.0.0</DependsOn_Name>
+    </DependsOn>
+    <ReferencedBy>
+      <ReferencedBy_Name>Ploeh.Samples.Commerce.Web v1.0.0.0</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="Ploeh.Samples.Commerce.Web.PresentationModel v1.0.0.0">
+    <DependsOn>
+      <DependsOn_Name>mscorlib v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web.Mvc v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Core v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web.Routing v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>Ploeh.Samples.Commerce.Domain v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web.Abstractions v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>System v2.0.0.0</DependsOn_Name>
+    </DependsOn>
+    <ReferencedBy>
+      <ReferencedBy_Name>Ploeh.Samples.Commerce.Web v1.0.0.0</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="Ploeh.Samples.Commerce.Web v1.0.0.0">
+    <DependsOn>
+      <DependsOn_Name>System.Web v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web.Routing v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>mscorlib v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web.Mvc v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Configuration v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>Ploeh.Samples.Commerce.Data.Sql v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>Ploeh.Samples.Commerce.Domain v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>Ploeh.Samples.Commerce.Web.PresentationModel v1.0.0.0</DependsOn_Name>
+    </DependsOn>
+  </Dependencies_For>
+</AssemblyDependencies>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AssembliesMetrics>
+  <Assembly Assembly="Ploeh.Samples.Commerce.Domain v1.0.0.0" NTypes="23" NAbstractTypes="8" NILInstructionInAsm="1108" NbLinesOfCodeInAsm="166" NbLinesOfCommentInAsm="17" PercentageCommentInAsm="9" AfferentCoupling="15" EfferentCoupling="25" RelationalCohesion="2,17" Instability="0,62" Abstractness="0,35" DistFrMainSeq="0,02" NormDistFrMainSeq="0,03" />
+  <Assembly Assembly="Ploeh.Samples.Commerce.Data.Sql v1.0.0.0" NTypes="15" NAbstractTypes="0" NILInstructionInAsm="1645" NbLinesOfCodeInAsm="201" NbLinesOfCommentInAsm="222" PercentageCommentInAsm="52" AfferentCoupling="1" EfferentCoupling="61" RelationalCohesion="1,87" Instability="0,98" Abstractness="0" DistFrMainSeq="0,01" NormDistFrMainSeq="0,02" />
+  <Assembly Assembly="Ploeh.Samples.Commerce.Web.PresentationModel v1.0.0.0" NTypes="15" NAbstractTypes="3" NILInstructionInAsm="1354" NbLinesOfCodeInAsm="188" NbLinesOfCommentInAsm="34" PercentageCommentInAsm="15" AfferentCoupling="1" EfferentCoupling="58" RelationalCohesion="1,4" Instability="0,98" Abstractness="0,2" DistFrMainSeq="0,13" NormDistFrMainSeq="0,18" />
+  <Assembly Assembly="Ploeh.Samples.Commerce.Web v1.0.0.0" NTypes="3" NAbstractTypes="0" NILInstructionInAsm="223" NbLinesOfCodeInAsm="17" NbLinesOfCommentInAsm="24" PercentageCommentInAsm="58" AfferentCoupling="0" EfferentCoupling="44" RelationalCohesion="0,67" Instability="1" Abstractness="0" DistFrMainSeq="0" NormDistFrMainSeq="0" />
+</AssembliesMetrics>

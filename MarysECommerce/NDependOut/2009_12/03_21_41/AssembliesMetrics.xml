@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AssembliesMetrics>
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.Data.Sql v1.0.0.0" NTypes="2" NAbstractTypes="0" NILInstructionInAsm="194" NbLinesOfCodeInAsm="34" NbLinesOfCommentInAsm="75" PercentageCommentInAsm="68" AfferentCoupling="4" EfferentCoupling="18" RelationalCohesion="1" Instability="0,82" Abstractness="0" DistFrMainSeq="0,13" NormDistFrMainSeq="0,18" />
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.Domain v1.0.0.0" NTypes="3" NAbstractTypes="1" NILInstructionInAsm="120" NbLinesOfCodeInAsm="10" NbLinesOfCommentInAsm="17" PercentageCommentInAsm="62" AfferentCoupling="1" EfferentCoupling="30" RelationalCohesion="1" Instability="0,97" Abstractness="0,33" DistFrMainSeq="0,21" NormDistFrMainSeq="0,3" />
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.WebUI v1.0.0.0" NTypes="9" NAbstractTypes="2" NILInstructionInAsm="864" NbLinesOfCodeInAsm="97" NbLinesOfCommentInAsm="39" PercentageCommentInAsm="28" AfferentCoupling="0" EfferentCoupling="52" RelationalCohesion="0,89" Instability="1" Abstractness="0,22" DistFrMainSeq="0,16" NormDistFrMainSeq="0,22" />
+</AssembliesMetrics>

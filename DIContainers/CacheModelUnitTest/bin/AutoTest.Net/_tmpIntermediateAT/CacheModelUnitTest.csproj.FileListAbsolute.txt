@@ -1,0 +1,9 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.CacheModel.UnitTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.CacheModel.UnitTest.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\Ploeh.Samples.CacheModel.UnitTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\Ploeh.Samples.CacheModel.UnitTest.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\Ploeh.Samples.CacheModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\xunit.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\Ploeh.Samples.CacheModel.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModelUnitTest\bin\AutoTest.Net\xunit.xml

@@ -1,0 +1,8 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceSqlDataAccess\bin\Debug\Ploeh.Samples.Commerce.Data.Sql.dll.config
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceSqlDataAccess\bin\Debug\Ploeh.Samples.Commerce.Data.Sql.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceSqlDataAccess\bin\Debug\Ploeh.Samples.Commerce.Data.Sql.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceSqlDataAccess\bin\Debug\Ploeh.Samples.Commerce.Domain.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceSqlDataAccess\bin\Debug\Ploeh.Samples.Commerce.Domain.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceSqlDataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceSqlDataAccess\obj\Debug\Ploeh.Samples.Commerce.Data.Sql.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceSqlDataAccess\obj\Debug\Ploeh.Samples.Commerce.Data.Sql.pdb

@@ -1,0 +1,5 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Lifetime\Lifetime\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Lifetime\Lifetime\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.Dependency.Lifetime.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Lifetime\Lifetime\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.Dependency.Lifetime.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Lifetime\Lifetime\bin\AutoTest.Net\Ploeh.Samples.Dependency.Lifetime.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Lifetime\Lifetime\bin\AutoTest.Net\Ploeh.Samples.Dependency.Lifetime.pdb

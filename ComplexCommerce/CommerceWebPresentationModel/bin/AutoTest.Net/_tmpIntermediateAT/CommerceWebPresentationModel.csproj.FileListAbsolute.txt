@@ -1,0 +1,9 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.Commerce.Web.PresentationModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.Commerce.Web.PresentationModel.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\Ploeh.Samples.Commerce.Web.PresentationModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\Ploeh.Samples.Commerce.Web.PresentationModel.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\Ploeh.Samples.Commerce.Data.Sql.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\Ploeh.Samples.Commerce.Domain.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\Ploeh.Samples.Commerce.Domain.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\AutoTest.Net\Ploeh.Samples.Commerce.Data.Sql.pdb

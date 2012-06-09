@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Ploeh.Samples.ProductManagement.WcfAgent.CircuitBreakerProductManagementAgent">
+    <Position X="1.5" Y="1.75" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAACAAAEAAAAAAiAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CircuitBreakerProductManagementAgent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

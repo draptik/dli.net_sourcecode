@@ -1,0 +1,5 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AssortedCodeSnippets\AssortedCodeSnippets\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AssortedCodeSnippets\AssortedCodeSnippets\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.AssortedCodeSnippets.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AssortedCodeSnippets\AssortedCodeSnippets\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.AssortedCodeSnippets.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AssortedCodeSnippets\AssortedCodeSnippets\bin\AutoTest.Net\Ploeh.Samples.AssortedCodeSnippets.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AssortedCodeSnippets\AssortedCodeSnippets\bin\AutoTest.Net\Ploeh.Samples.AssortedCodeSnippets.pdb

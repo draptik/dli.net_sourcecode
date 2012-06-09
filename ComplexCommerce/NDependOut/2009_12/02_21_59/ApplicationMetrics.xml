@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ApplicationMetrics NAsm="6" NbLinesOfCode="1787" NbLinesOfComment="994" PercentageComment="35" NType="168" NClass="165" NAbstractClass="8" NInterface="3" NValueType="0" NExceptionType="0" NAttributeType="0" NDelegateType="0" NEnumType="0" NGenericMethodsDefinition="0" NGenericTypesDefinition="8" NILInstruction="14505" PercentPublicType="44,64" PercentPublicMethod="90,3" PercentClassWithAtLeastOnePublicField="0">
+  <PropertyOnInterface Occ="3" Avg="0,33" StdDev="0,47" MaxVal="1" MaxName="Ploeh.Samples.Commerce.Web.PresentationModel.Controllers.IMembershipService" />
+  <MethodOnInterface Occ="3" Avg="3" StdDev="0,82" MaxVal="4" MaxName="Ploeh.Samples.Commerce.Web.PresentationModel.Controllers.IMembershipService" />
+  <ArgOnMethodOnInterface Occ="9" Avg="1,67" StdDev="1,15" MaxVal="3" MaxName="Ploeh.Samples.Commerce.Domain.IBasketService.AddToBasket(Int32,Int32,IPrincipal)" />
+  <PublicPropertyOnClass Occ="165" Avg="0,59" StdDev="1,58" MaxVal="12" MaxName="Ploeh.Samples.Commerce.WebPresentationModelUnitTest.AccountControllerTest+MockMembershipProvider" />
+  <PublicMethodOnClass Occ="165" Avg="4,12" StdDev="4,45" MaxVal="30" MaxName="Ploeh.Samples.Commerce.WebPresentationModelUnitTest.AccountControllerTest+MockMembershipProvider" />
+  <ArgOnPublicMethodOnClass Occ="680" Avg="0,43" StdDev="0,84" MaxVal="8" MaxName="Ploeh.Samples.Commerce.WebPresentationModelUnitTest.AccountControllerTest+MockMembershipProvider.CreateUser(String,String,String,String,String,Boolean,Object,MembershipCreateStatus&amp;)" />
+  <ILInstructionInNonAbstractMethods Occ="742" Avg="19,55" StdDev="24,33" MaxVal="190" MaxName="Ploeh.Samples.Commerce.Data.Sql.SqlBasketRepository.AddToBasket(Int32,Int32,IPrincipal)" />
+  <TypeWithTheMostILInstruction Occ="165" Avg="87,91" StdDev="146,41" MaxVal="701" MaxName="Ploeh.Samples.Commerce.WebPresentationModelUnitTest.BasketControllerTest" />
+  <MethodCC Occ="742" Avg="1,27" StdDev="0,99" MaxVal="14" MaxName="Ploeh.Samples.Commerce.WebPresentationModelUnitTest.ControllerFixture..ctor()" />
+</ApplicationMetrics>

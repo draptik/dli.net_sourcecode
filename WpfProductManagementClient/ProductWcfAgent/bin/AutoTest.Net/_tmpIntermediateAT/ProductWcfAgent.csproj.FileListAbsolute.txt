@@ -1,0 +1,7 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\WpfProductManagementClient\ProductWcfAgent\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\WpfProductManagementClient\ProductWcfAgent\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.ProductManagement.WcfAgent.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\WpfProductManagementClient\ProductWcfAgent\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.ProductManagement.WcfAgent.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\WpfProductManagementClient\ProductWcfAgent\bin\AutoTest.Net\Ploeh.Samples.ProductManagement.WcfAgent.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\WpfProductManagementClient\ProductWcfAgent\bin\AutoTest.Net\Ploeh.Samples.ProductManagement.WcfAgent.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\WpfProductManagementClient\ProductWcfAgent\bin\AutoTest.Net\Ploeh.Samples.ProductManagement.PresentationLogic.Wpf.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\WpfProductManagementClient\ProductWcfAgent\bin\AutoTest.Net\Ploeh.Samples.ProductManagement.PresentationLogic.Wpf.pdb

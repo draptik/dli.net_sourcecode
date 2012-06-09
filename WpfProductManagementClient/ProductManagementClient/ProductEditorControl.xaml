@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="Ploeh.Samples.ProductManagement.WpfClient.ProductEditorControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:pm="clr-namespace:Ploeh.Samples.ProductManagement.PresentationLogic.Wpf;assembly=Ploeh.Samples.ProductManagement.PresentationLogic.Wpf">
+    <DockPanel Margin="10">
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" Grid.Row="0" Width="60" IsDefault="True" IsEnabled="{Binding Path=IsValid}" Command="{x:Static pm:PresentationCommands.Accept}">_OK</Button>
+            <Button Grid.Column="2" Grid.Row="0" Width="60" IsCancel="True">_Cancel</Button>
+        </Grid>
+        <Grid>
+            <Grid.Resources>
+                <DataTemplate DataType="{x:Type ValidationError}">
+                    <TextBlock FontStyle="Italic" Foreground="Red" HorizontalAlignment="Right" Margin="0,1" Text="{Binding Path=ErrorContent}" />
+                </DataTemplate>
+            </Grid.Resources>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Content="Id:" HorizontalAlignment="Right" />
+            <TextBlock Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Text="{Binding Path=Id}" VerticalAlignment="Center" />
+            <Label Grid.Column="0" Grid.Row="2" Content="_Name:" HorizontalAlignment="Right" Target="{Binding ElementName=nameTextBox}" />
+            <TextBox x:Name="nameTextBox" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Text="{Binding Path=Name, ValidatesOnDataErrors=true, UpdateSourceTrigger=PropertyChanged}" />
+            <ContentPresenter Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Left" Content="{Binding ElementName=nameTextBox, Path=(Validation.Errors).CurrentItem}" />
+            <Label Grid.Column="0" Grid.Row="4" Content="_Price:" HorizontalAlignment="Right" Target="{Binding ElementName=priceTextBox}" />
+            <TextBox x:Name="priceTextBox" Grid.Column="1" Grid.Row="4" Text="{Binding Path=Price, ValidatesOnDataErrors=true, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox x:Name="currencyTextBox" Grid.Column="2" Grid.Row="4" Text="{Binding Path=Currency, ValidatesOnDataErrors=true, UpdateSourceTrigger=PropertyChanged}" />
+            <ContentPresenter Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left" Content="{Binding ElementName=priceTextBox, Path=(Validation.Errors).CurrentItem}" />
+            <ContentPresenter Grid.Column="2" Grid.Row="5" HorizontalAlignment="Left" Content="{Binding ElementName=currencyTextBox, Path=(Validation.Errors).CurrentItem}" />
+        </Grid>
+    </DockPanel>
+</UserControl>

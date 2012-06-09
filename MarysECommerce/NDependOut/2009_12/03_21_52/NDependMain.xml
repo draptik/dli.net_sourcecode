@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NDepend>
+  <ReportInfo AppName="MarysECommerce" NDependDate="12/03/2009 21:52:29" BuiltDuration="00:06" NDependVersion="2.12.1.3123 (Pro Edition)" />
+<AssemblyDependencies>
+  <Dependencies_For Assembly="Ploeh.Samples.Mary.ECommerce.Data.Sql v1.0.0.0">
+    <DependsOn>
+      <DependsOn_Name>System.Data.Entity v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>mscorlib v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Runtime.Serialization v3.0.0.0</DependsOn_Name>
+    </DependsOn>
+    <ReferencedBy>
+      <ReferencedBy_Name>Ploeh.Samples.Mary.ECommerce.Domain v1.0.0.0</ReferencedBy_Name>
+      <ReferencedBy_Name>Ploeh.Samples.Mary.ECommerce.WebUI v1.0.0.0</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="Ploeh.Samples.Mary.ECommerce.Domain v1.0.0.0">
+    <DependsOn>
+      <DependsOn_Name>mscorlib v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>Ploeh.Samples.Mary.ECommerce.Data.Sql v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Data.Entity v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Core v3.5.0.0</DependsOn_Name>
+    </DependsOn>
+    <ReferencedBy>
+      <ReferencedBy_Name>Ploeh.Samples.Mary.ECommerce.WebUI v1.0.0.0</ReferencedBy_Name>
+    </ReferencedBy>
+  </Dependencies_For>
+  <Dependencies_For Assembly="Ploeh.Samples.Mary.ECommerce.WebUI v1.0.0.0">
+    <DependsOn>
+      <DependsOn_Name>System.Web.Mvc v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>mscorlib v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web v2.0.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web.Routing v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>System.Web.Abstractions v3.5.0.0</DependsOn_Name>
+      <DependsOn_Name>Ploeh.Samples.Mary.ECommerce.Domain v1.0.0.0</DependsOn_Name>
+      <DependsOn_Name>Ploeh.Samples.Mary.ECommerce.Data.Sql v1.0.0.0</DependsOn_Name>
+    </DependsOn>
+  </Dependencies_For>
+</AssemblyDependencies>
+<AssemblySortForCompilOrObfusk>
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.Data.Sql">4</Assembly>
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.Domain">6</Assembly>
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.WebUI">11</Assembly>
+</AssemblySortForCompilOrObfusk>
+<AssembliesMetrics>
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.Data.Sql v1.0.0.0" NTypes="2" NAbstractTypes="0" NILInstructionInAsm="194" NbLinesOfCodeInAsm="34" NbLinesOfCommentInAsm="75" PercentageCommentInAsm="68" AfferentCoupling="4" EfferentCoupling="18" RelationalCohesion="1" Instability="0,82" Abstractness="0" DistFrMainSeq="0,13" NormDistFrMainSeq="0,18" />
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.Domain v1.0.0.0" NTypes="3" NAbstractTypes="1" NILInstructionInAsm="120" NbLinesOfCodeInAsm="10" NbLinesOfCommentInAsm="17" PercentageCommentInAsm="62" AfferentCoupling="1" EfferentCoupling="30" RelationalCohesion="1" Instability="0,97" Abstractness="0,33" DistFrMainSeq="0,21" NormDistFrMainSeq="0,3" />
+  <Assembly Assembly="Ploeh.Samples.Mary.ECommerce.WebUI v1.0.0.0" NTypes="9" NAbstractTypes="2" NILInstructionInAsm="864" NbLinesOfCodeInAsm="97" NbLinesOfCommentInAsm="39" PercentageCommentInAsm="28" AfferentCoupling="0" EfferentCoupling="52" RelationalCohesion="0,89" Instability="1" Abstractness="0,22" DistFrMainSeq="0,16" NormDistFrMainSeq="0,22" />
+</AssembliesMetrics>
+<TypesMetrics>
+  <TypeMetric TypeName="Product" TypeNamespace="Ploeh.Samples.Mary.ECommerce.Data.Sql" TypeRank="4,37" IsBadTypeRank="True" NILInstructionOnType="138" IsBadNILInstructionOnType="False" NbLinesOfCode="27" IsBadNbLinesOfCode="False" NbLinesOfComment="23" IsBadNbLinesOfComment="False" PercentageComment="46" IsBadPercentageComment="False" LackOfCohesionOfMethods="0,83" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0,91" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="11" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="12" IsBadILCyclomaticComplexity="False" AfferentCoupling="5" IsBadAfferentCoupling="True" EfferentCoupling="12" IsBadEfferentCoupling="False" AssociationBetweenClasses="0" IsBadAssociationBetweenClasses="False" NInstanceMethods="11" IsBadNInstanceMethods="False" NStaticMethods="1" IsBadNStaticMethods="False" NProperties="5" IsBadNProperties="True" NFields="5" IsBadNFields="True" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="3" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="IFormsAuthentication" TypeNamespace="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers" TypeRank="1,43" IsBadTypeRank="False" NILInstructionOnType="-" IsBadNILInstructionOnType="False" NbLinesOfCode="-" IsBadNbLinesOfCode="False" NbLinesOfComment="0" IsBadNbLinesOfComment="False" PercentageComment="-" IsBadPercentageComment="False" LackOfCohesionOfMethods="-" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="-" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="-" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="-" IsBadILCyclomaticComplexity="False" AfferentCoupling="2" IsBadAfferentCoupling="False" EfferentCoupling="3" IsBadEfferentCoupling="False" AssociationBetweenClasses="0" IsBadAssociationBetweenClasses="False" NInstanceMethods="2" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="0" IsBadNProperties="False" NFields="0" IsBadNFields="False" NChildren="-" IsBadNChildren="False" DepthOfInheritanceTree="-" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="IMembershipService" TypeNamespace="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers" TypeRank="0,99" IsBadTypeRank="False" NILInstructionOnType="-" IsBadNILInstructionOnType="False" NbLinesOfCode="-" IsBadNbLinesOfCode="False" NbLinesOfComment="0" IsBadNbLinesOfComment="False" PercentageComment="-" IsBadPercentageComment="False" LackOfCohesionOfMethods="-" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="-" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="-" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="-" IsBadILCyclomaticComplexity="False" AfferentCoupling="2" IsBadAfferentCoupling="False" EfferentCoupling="4" IsBadEfferentCoupling="False" AssociationBetweenClasses="0" IsBadAssociationBetweenClasses="False" NInstanceMethods="4" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="1" IsBadNProperties="False" NFields="0" IsBadNFields="False" NChildren="-" IsBadNChildren="False" DepthOfInheritanceTree="-" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="&lt;&gt;f__AnonymousType0&lt;&lt;controller&gt;j__TPar,&lt;action&gt;j__TPar,&lt;id&gt;j__TPar&gt;" TypeNamespace="" TypeRank="0,73" IsBadTypeRank="False" NILInstructionOnType="137" IsBadNILInstructionOnType="False" NbLinesOfCode="0" IsBadNbLinesOfCode="False" NbLinesOfComment="-" IsBadNbLinesOfComment="False" PercentageComment="-" IsBadPercentageComment="False" LackOfCohesionOfMethods="0,29" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0,33" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="-" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="9" IsBadILCyclomaticComplexity="False" AfferentCoupling="1" IsBadAfferentCoupling="False" EfferentCoupling="11" IsBadEfferentCoupling="False" AssociationBetweenClasses="8" IsBadAssociationBetweenClasses="False" NInstanceMethods="7" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="3" IsBadNProperties="False" NFields="3" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="1" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="ProductService" TypeNamespace="Ploeh.Samples.Mary.ECommerce.Domain" TypeRank="0,57" IsBadTypeRank="False" NILInstructionOnType="82" IsBadNILInstructionOnType="False" NbLinesOfCode="9" IsBadNbLinesOfCode="False" NbLinesOfComment="0" IsBadNbLinesOfComment="False" PercentageComment="0" IsBadPercentageComment="False" LackOfCohesionOfMethods="0,25" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0,33" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="6" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="7" IsBadILCyclomaticComplexity="False" AfferentCoupling="1" IsBadAfferentCoupling="False" EfferentCoupling="32" IsBadEfferentCoupling="False" AssociationBetweenClasses="19" IsBadAssociationBetweenClasses="False" NInstanceMethods="4" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="0" IsBadNProperties="False" NFields="1" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="1" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="CommerceObjectContext" TypeNamespace="Ploeh.Samples.Mary.ECommerce.Data.Sql" TypeRank="0,36" IsBadTypeRank="False" NILInstructionOnType="56" IsBadNILInstructionOnType="False" NbLinesOfCode="7" IsBadNbLinesOfCode="False" NbLinesOfComment="15" IsBadNbLinesOfComment="False" PercentageComment="68,18" IsBadPercentageComment="False" LackOfCohesionOfMethods="0,8" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="1" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="6" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="6" IsBadILCyclomaticComplexity="False" AfferentCoupling="1" IsBadAfferentCoupling="False" EfferentCoupling="11" IsBadEfferentCoupling="False" AssociationBetweenClasses="2" IsBadAssociationBetweenClasses="False" NInstanceMethods="5" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="1" IsBadNProperties="False" NFields="1" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="2" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="IProductService" TypeNamespace="Ploeh.Samples.Mary.ECommerce.Domain" TypeRank="0,36" IsBadTypeRank="False" NILInstructionOnType="-" IsBadNILInstructionOnType="False" NbLinesOfCode="-" IsBadNbLinesOfCode="False" NbLinesOfComment="0" IsBadNbLinesOfComment="False" PercentageComment="-" IsBadPercentageComment="False" LackOfCohesionOfMethods="-" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="-" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="-" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="-" IsBadILCyclomaticComplexity="False" AfferentCoupling="1" IsBadAfferentCoupling="False" EfferentCoupling="3" IsBadEfferentCoupling="False" AssociationBetweenClasses="0" IsBadAssociationBetweenClasses="False" NInstanceMethods="1" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="0" IsBadNProperties="False" NFields="0" IsBadNFields="False" NChildren="-" IsBadNChildren="False" DepthOfInheritanceTree="-" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="ProductService+&lt;&gt;c__DisplayClass2" TypeNamespace="Ploeh.Samples.Mary.ECommerce.Domain" TypeRank="0,36" IsBadTypeRank="False" NILInstructionOnType="38" IsBadNILInstructionOnType="False" NbLinesOfCode="1" IsBadNbLinesOfCode="False" NbLinesOfComment="-" IsBadNbLinesOfComment="False" PercentageComment="-" IsBadPercentageComment="False" LackOfCohesionOfMethods="0,5" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="1" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="-" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="2" IsBadILCyclomaticComplexity="False" AfferentCoupling="1" IsBadAfferentCoupling="False" EfferentCoupling="8" IsBadEfferentCoupling="False" AssociationBetweenClasses="13" IsBadAssociationBetweenClasses="False" NInstanceMethods="2" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="0" IsBadNProperties="False" NFields="1" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="1" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="AccountMembershipService" TypeNamespace="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers" TypeRank="0,34" IsBadTypeRank="False" NILInstructionOnType="71" IsBadNILInstructionOnType="False" NbLinesOfCode="9" IsBadNbLinesOfCode="False" NbLinesOfComment="1" IsBadNbLinesOfComment="False" PercentageComment="10" IsBadPercentageComment="False" LackOfCohesionOfMethods="0,17" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0,2" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="7" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="7" IsBadILCyclomaticComplexity="False" AfferentCoupling="1" IsBadAfferentCoupling="False" EfferentCoupling="10" IsBadEfferentCoupling="False" AssociationBetweenClasses="8" IsBadAssociationBetweenClasses="False" NInstanceMethods="6" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="1" IsBadNProperties="False" NFields="1" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="1" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="FormsAuthenticationService" TypeNamespace="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers" TypeRank="0,34" IsBadTypeRank="False" NILInstructionOnType="13" IsBadNILInstructionOnType="False" NbLinesOfCode="2" IsBadNbLinesOfCode="False" NbLinesOfComment="0" IsBadNbLinesOfComment="False" PercentageComment="0" IsBadPercentageComment="False" LackOfCohesionOfMethods="0" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="2" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="3" IsBadILCyclomaticComplexity="False" AfferentCoupling="1" IsBadAfferentCoupling="False" EfferentCoupling="6" IsBadEfferentCoupling="False" AssociationBetweenClasses="3" IsBadAssociationBetweenClasses="False" NInstanceMethods="3" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="0" IsBadNProperties="False" NFields="0" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="1" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="MvcApplication" TypeNamespace="Ploeh.Samples.Mary.ECommerce.WebUI" TypeRank="0,15" IsBadTypeRank="False" NILInstructionOnType="23" IsBadNILInstructionOnType="False" NbLinesOfCode="3" IsBadNbLinesOfCode="False" NbLinesOfComment="3" IsBadNbLinesOfComment="False" PercentageComment="50" IsBadPercentageComment="False" LackOfCohesionOfMethods="0" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="2" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="3" IsBadILCyclomaticComplexity="False" AfferentCoupling="0" IsBadAfferentCoupling="False" EfferentCoupling="11" IsBadEfferentCoupling="False" AssociationBetweenClasses="5" IsBadAssociationBetweenClasses="False" NInstanceMethods="2" IsBadNInstanceMethods="False" NStaticMethods="1" IsBadNStaticMethods="False" NProperties="0" IsBadNProperties="False" NFields="0" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="2" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="AccountController" TypeNamespace="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers" TypeRank="0,15" IsBadTypeRank="False" NILInstructionOnType="559" IsBadNILInstructionOnType="False" NbLinesOfCode="72" IsBadNbLinesOfCode="False" NbLinesOfComment="10" IsBadNbLinesOfComment="False" PercentageComment="12,2" IsBadPercentageComment="False" LackOfCohesionOfMethods="0,89" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0,94" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="47" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="56" IsBadILCyclomaticComplexity="False" AfferentCoupling="0" IsBadAfferentCoupling="False" EfferentCoupling="33" IsBadEfferentCoupling="True" AssociationBetweenClasses="26" IsBadAssociationBetweenClasses="True" NInstanceMethods="18" IsBadNInstanceMethods="True" NStaticMethods="1" IsBadNStaticMethods="False" NProperties="2" IsBadNProperties="False" NFields="2" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="2" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="HomeController" TypeNamespace="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers" TypeRank="0,15" IsBadTypeRank="False" NILInstructionOnType="34" IsBadNILInstructionOnType="False" NbLinesOfCode="6" IsBadNbLinesOfCode="False" NbLinesOfComment="0" IsBadNbLinesOfComment="False" PercentageComment="0" IsBadPercentageComment="False" LackOfCohesionOfMethods="0" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="2" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="3" IsBadILCyclomaticComplexity="False" AfferentCoupling="0" IsBadAfferentCoupling="False" EfferentCoupling="15" IsBadEfferentCoupling="False" AssociationBetweenClasses="6" IsBadAssociationBetweenClasses="False" NInstanceMethods="3" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="0" IsBadNProperties="False" NFields="0" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="2" IsBadDepthOfInheritanceTree="False" />
+  <TypeMetric TypeName="_Default" TypeNamespace="Ploeh.Samples.Mary.ECommerce.WebUI" TypeRank="0,15" IsBadTypeRank="False" NILInstructionOnType="27" IsBadNILInstructionOnType="False" NbLinesOfCode="5" IsBadNbLinesOfCode="False" NbLinesOfComment="3" IsBadNbLinesOfComment="False" PercentageComment="37,5" IsBadPercentageComment="False" LackOfCohesionOfMethods="0" IsBadLackOfCohesionOfMethods="False" LackOfCohesionOfMethods_HS="0" IsBadLackOfCohesionOfMethods_HS="False" CyclomaticComplexity="1" IsBadCyclomaticComplexity="False" ILCyclomaticComplexity="2" IsBadILCyclomaticComplexity="False" AfferentCoupling="0" IsBadAfferentCoupling="False" EfferentCoupling="10" IsBadEfferentCoupling="False" AssociationBetweenClasses="8" IsBadAssociationBetweenClasses="False" NInstanceMethods="2" IsBadNInstanceMethods="False" NStaticMethods="0" IsBadNStaticMethods="False" NProperties="0" IsBadNProperties="False" NFields="0" IsBadNFields="False" NChildren="0" IsBadNChildren="False" DepthOfInheritanceTree="4" IsBadDepthOfInheritanceTree="False" />
+</TypesMetrics>
+<ApplicationMetrics NAsm="3" NbLinesOfCode="141" NbLinesOfComment="131" PercentageComment="48" NType="14" NClass="11" NAbstractClass="0" NInterface="3" NValueType="0" NExceptionType="0" NAttributeType="0" NDelegateType="0" NEnumType="0" NGenericMethodsDefinition="0" NGenericTypesDefinition="1" NILInstruction="1178" PercentPublicType="78,57" PercentPublicMethod="87,67" PercentClassWithAtLeastOnePublicField="0">
+  <PropertyOnInterface Occ="3" Avg="0,33" StdDev="0,47" MaxVal="1" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.IMembershipService" />
+  <MethodOnInterface Occ="3" Avg="2,33" StdDev="1,25" MaxVal="4" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.IMembershipService" />
+  <ArgOnMethodOnInterface Occ="7" Avg="1,57" StdDev="1,18" MaxVal="3" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.IMembershipService.CreateUser(String,String,String)" />
+  <PublicPropertyOnClass Occ="11" Avg="1,09" StdDev="1,56" MaxVal="5" MaxName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product" />
+  <PublicMethodOnClass Occ="11" Avg="5,18" StdDev="3,59" MaxVal="12" MaxName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product" />
+  <ArgOnPublicMethodOnClass Occ="57" Avg="0,81" StdDev="1,22" MaxVal="5" MaxName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product.CreateProduct(Int32,String,String,Decimal,Boolean)" />
+  <ILInstructionInNonAbstractMethods Occ="66" Avg="17,85" StdDev="18,69" MaxVal="89" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController.ValidateRegistration(String,String,String,String)" />
+  <TypeWithTheMostILInstruction Occ="11" Avg="107,09" StdDev="148,65" MaxVal="559" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController" />
+  <MethodCC Occ="66" Avg="1,67" StdDev="1,76" MaxVal="12" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController.ErrorCodeToString(MembershipCreateStatus)" />
+</ApplicationMetrics>
+<InfoWarnings>
+  <Info>12/03/2009 21:52:23 Begin analysis with NDepend v2.12.1.3123</Info>
+  <Info>12/03/2009 21:52:23 Retrieve dependencies of your application.</Info>
+  <Info>Don't load a previous analysis to compare with.</Info>
+  <Info>Assemblies loaded from {C:\Windows\Microsoft.NET\Framework\v2.0.50727} 
+   mscorlib.dll   v2.0.0.0
+   System.Web.dll   v2.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0} 
+   System.Runtime.Serialization.dll   v3.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5} 
+   System.Data.Entity.dll   v3.5.0.0
+   System.Web.Routing.dll   v3.5.0.0
+   System.Core.dll   v3.5.0.0
+   System.Web.Abstractions.dll   v3.5.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\MarysECommerce\SqlDataAccess\bin\Debug} 
+   Ploeh.Samples.Mary.ECommerce.Data.Sql.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\MarysECommerce\DomainLogic\bin\Debug} 
+   Ploeh.Samples.Mary.ECommerce.Domain.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\MarysECommerce\WebUI\bin} 
+   Ploeh.Samples.Mary.ECommerce.WebUI.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 1.0\Assemblies} 
+   System.Web.Mvc.dll   v1.0.0.0</Info>
+  <Info>10 source files parsed ; all source files found ; all source files in-sync with PDB</Info>
+  <Info>0 CQL constraint has been extracted from code.</Info>
+  <Info>No dependency cycle detected in assemblies referencement graph.</Info>
+  <Info>12.03.2009 21:52:26 Analyse dependencies of your application.</Info>
+  <Info>12.03.2009 21:52:26 Building the report (standard).</Info>
+</InfoWarnings><CQLResult>
+  <Group Name="Layering" Status="Warn">
+    <Query Status="Warn" Name="DomainModel isolated from SqlDataAccess" NbNodeMatched="1" NbNodeTested="11" KindOfNode=" assemblies">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;DomainModel&amp;#0160;isolated&amp;#0160;from&amp;#0160;SqlDataAccess&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;ASSEMBLIES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#000064'&gt;IsDirectlyUsing&lt;/font&gt;&amp;#0160;&lt;font color='#A31515'&gt;"ASSEMBLY:Ploeh.Samples.Mary.ECommerce.Data.Sql"&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#000064'&gt;NameIs&lt;/font&gt;&amp;#0160;&lt;font color='#A31515'&gt;"Ploeh.Samples.Mary.ECommerce.Domain"&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;the&amp;#0160;assembly&amp;#0160;&amp;lt;b&amp;gt;Ploeh.Samples.Mary.ECommerce.Domain&amp;lt;/b&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;shouldn't&amp;#0160;use&amp;#0160;directly&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;the&amp;#0160;assembly&amp;#0160;&amp;lt;b&amp;gt;Ploeh.Samples.Mary.ECommerce.Data.Sql&amp;lt;/b&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;because&amp;#0160;it&amp;#0160;validates&amp;#0160;layering&lt;br/&gt;&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>assemblies</Column>
+        <Column>DepthOfIsUsing "ASSEMBLY:Ploeh.Samples.Mary.ECommerce.Data.Sql"</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Ploeh.Samples.Mary.ECommerce.Domain" FullName="Ploeh.Samples.Mary.ECommerce.Domain">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Constraints extracted from Source Code" Status="Not yet compiled" />
+</CQLResult></NDepend>

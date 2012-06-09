@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ploeh.Samples.ProductManagement.WcfAgent.CircuitBreaker">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="CircuitBreaker" Hidden="true" />
+      <Field Name="state" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAABAAAAAAAEAAAAAAAAAEAAAABAAAAAA=</HashCode>
+      <FileName>CircuitBreaker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="State" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ploeh.Samples.ProductManagement.WcfAgent.HalfOpenCircuitState">
+    <Position X="8.75" Y="4.75" Width="1.75" />
+    <Members>
+      <Method Name="HalfOpenCircuitState" Hidden="true" />
+      <Field Name="succeeded" Hidden="true" />
+      <Field Name="timeout" Hidden="true" />
+      <Field Name="tripped" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEIAAABAAAAAAAEAAAAAAAAABAAACAAAAAAA=</HashCode>
+      <FileName>HalfOpenCircuitState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ploeh.Samples.ProductManagement.WcfAgent.ClosedCircuitState">
+    <Position X="6.75" Y="2.5" Width="1.75" />
+    <Members>
+      <Method Name="ClosedCircuitState" Hidden="true" />
+      <Field Name="timeout" Hidden="true" />
+      <Field Name="tripped" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIAAABAAAAAAAEAAAAAAAAABAAACAAAAAAA=</HashCode>
+      <FileName>ClosedCircuitState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ploeh.Samples.ProductManagement.WcfAgent.OpenCircuitState">
+    <Position X="8.75" Y="2.5" Width="1.75" />
+    <Members>
+      <Field Name="closedAt" Hidden="true" />
+      <Method Name="OpenCircuitState" Hidden="true" />
+      <Field Name="timeout" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIAAABAAAAAAAEAAAAAAAAAAAAASAAAAAAA=</HashCode>
+      <FileName>OpenCircuitState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Ploeh.Samples.ProductManagement.WcfAgent.ICircuitState" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEIAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICircuitState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

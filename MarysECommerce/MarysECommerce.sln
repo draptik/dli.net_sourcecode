@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataAccess", "SqlDataAccess\SqlDataAccess.csproj", "{B6D0D291-DB7A-4C0D-9820-EC1DA161A763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainLogic", "DomainLogic\DomainLogic.csproj", "{BFB0864C-68BD-409A-9A82-52669F44E400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{053C9FE6-2F2D-43B8-A8E7-459F361FEF23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D0D291-DB7A-4C0D-9820-EC1DA161A763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D0D291-DB7A-4C0D-9820-EC1DA161A763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D0D291-DB7A-4C0D-9820-EC1DA161A763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D0D291-DB7A-4C0D-9820-EC1DA161A763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB0864C-68BD-409A-9A82-52669F44E400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB0864C-68BD-409A-9A82-52669F44E400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB0864C-68BD-409A-9A82-52669F44E400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB0864C-68BD-409A-9A82-52669F44E400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053C9FE6-2F2D-43B8-A8E7-459F361FEF23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053C9FE6-2F2D-43B8-A8E7-459F361FEF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053C9FE6-2F2D-43B8-A8E7-459F361FEF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053C9FE6-2F2D-43B8-A8E7-459F361FEF23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StructureMap MementoStyle="Attribute">
+  <DefaultInstance PluginType="Ploeh.Samples.MenuModel.IIngredient,
+                   Ploeh.Samples.MenuModel"
+                   PluggedType="Ploeh.Samples.MenuModel.Steak,
+                   Ploeh.Samples.MenuModel"
+                   Scope="Singleton" />
+</StructureMap>

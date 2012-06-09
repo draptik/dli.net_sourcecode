@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CommerceModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="CommerceModelStoreContainer">
+    <EntitySet Name="aspnet_Users" EntityType="CommerceModel.Store.aspnet_Users" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="AuditEvent" EntityType="CommerceModel.Store.AuditEvent" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="AuditProductDeleted" EntityType="CommerceModel.Store.AuditProductDeleted" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="AuditProductInserted" EntityType="CommerceModel.Store.AuditProductInserted" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="AuditProductUpdated" EntityType="CommerceModel.Store.AuditProductUpdated" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="BasketLine" EntityType="CommerceModel.Store.BasketLine" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="ExchangeRate" EntityType="CommerceModel.Store.ExchangeRate" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Product" EntityType="CommerceModel.Store.Product" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <AssociationSet Name="FK__AuditProd__Audit__123EB7A3" Association="CommerceModel.Store.FK__AuditProd__Audit__123EB7A3">
+      <End Role="AuditEvent" EntitySet="AuditEvent" />
+      <End Role="AuditProductDeleted" EntitySet="AuditProductDeleted" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AuditProd__Audit__17036CC0" Association="CommerceModel.Store.FK__AuditProd__Audit__17036CC0">
+      <End Role="AuditEvent" EntitySet="AuditEvent" />
+      <End Role="AuditProductInserted" EntitySet="AuditProductInserted" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AuditProd__Audit__1BC821DD" Association="CommerceModel.Store.FK__AuditProd__Audit__1BC821DD">
+      <End Role="AuditEvent" EntitySet="AuditEvent" />
+      <End Role="AuditProductUpdated" EntitySet="AuditProductUpdated" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BasketLin__Produ__02084FDA" Association="CommerceModel.Store.FK__BasketLin__Produ__02084FDA">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="BasketLine" EntitySet="BasketLine" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BasketLin__UserI__02FC7413" Association="CommerceModel.Store.FK__BasketLin__UserI__02FC7413">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="BasketLine" EntitySet="BasketLine" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="aspnet_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredUserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="MobileAlias" Type="nvarchar" MaxLength="16" />
+    <Property Name="IsAnonymous" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AuditEvent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Time" Type="datetime" Nullable="false" />
+    <Property Name="User" Type="nvarchar" Nullable="false" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="AuditProductDeleted">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AuditEventId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AuditProductInserted">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AuditEventId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="UnitPrice" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AuditProductUpdated">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AuditEventId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="UnitPrice" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BasketLine">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="UtcUpdated" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExchangeRate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CurrencyCode" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="Rate" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="UnitPrice" Type="money" Nullable="false" />
+    <Property Name="Featured" Type="bit" Nullable="false" />
+    <Property Name="DiscountedUnitPrice" Type="money" />
+  </EntityType>
+  <Association Name="FK__AuditProd__Audit__123EB7A3">
+    <End Role="AuditEvent" Type="CommerceModel.Store.AuditEvent" Multiplicity="1" />
+    <End Role="AuditProductDeleted" Type="CommerceModel.Store.AuditProductDeleted" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuditEvent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AuditProductDeleted">
+        <PropertyRef Name="AuditEventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AuditProd__Audit__17036CC0">
+    <End Role="AuditEvent" Type="CommerceModel.Store.AuditEvent" Multiplicity="1" />
+    <End Role="AuditProductInserted" Type="CommerceModel.Store.AuditProductInserted" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuditEvent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AuditProductInserted">
+        <PropertyRef Name="AuditEventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AuditProd__Audit__1BC821DD">
+    <End Role="AuditEvent" Type="CommerceModel.Store.AuditEvent" Multiplicity="1" />
+    <End Role="AuditProductUpdated" Type="CommerceModel.Store.AuditProductUpdated" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AuditEvent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AuditProductUpdated">
+        <PropertyRef Name="AuditEventId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BasketLin__Produ__02084FDA">
+    <End Role="Product" Type="CommerceModel.Store.Product" Multiplicity="1" />
+    <End Role="BasketLine" Type="CommerceModel.Store.BasketLine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="BasketLine">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BasketLin__UserI__02FC7413">
+    <End Role="aspnet_Users" Type="CommerceModel.Store.aspnet_Users" Multiplicity="1" />
+    <End Role="BasketLine" Type="CommerceModel.Store.BasketLine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="BasketLine">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

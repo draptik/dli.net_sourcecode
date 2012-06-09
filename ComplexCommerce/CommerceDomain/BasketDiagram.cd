@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ploeh.Samples.Commerce.Domain.Basket">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="Basket" Hidden="true" />
+      <Field Name="contents" Hidden="true" />
+      <Field Name="owner" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAAAgAAAAAAAAAAAAAAAACAAAAAAAABAAAA=</HashCode>
+      <FileName>Basket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Contents" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Ploeh.Samples.Commerce.Domain.BasketRepository">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAIAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>BasketRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ploeh.Samples.Commerce.Domain.BasketService">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="BasketService" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABACAAAAAAIAAAAAQAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>BasketService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repository" />
+      <Field Name="discountPolicy" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Ploeh.Samples.Commerce.Domain.BasketDiscountPolicy">
+    <Position X="4" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BasketDiscountPolicy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ploeh.Samples.Commerce.Domain.DefaultProductDiscountPolicy" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DefaultProductDiscountPolicy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ploeh.Samples.Commerce.Domain.DiscountRepository">
+    <Position X="9.75" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiscountRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ploeh.Samples.Commerce.Domain.RepositoryBasketDiscountPolicy" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepositoryBasketDiscountPolicy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ploeh.Samples.Commerce.Domain.Extent">
+    <Position X="10.25" Y="5" Width="1.5" />
+    <Members>
+      <Field Name="product" Hidden="true" />
+      <Field Name="total" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAAAAAAAgAAQCAAAEAAgIAAAAA=</HashCode>
+      <FileName>Extent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

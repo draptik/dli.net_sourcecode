@@ -1,0 +1,5 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModel\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModel\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.CacheModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModel\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.CacheModel.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModel\bin\AutoTest.Net\Ploeh.Samples.CacheModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\CacheModel\bin\AutoTest.Net\Ploeh.Samples.CacheModel.pdb

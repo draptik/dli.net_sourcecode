@@ -1,0 +1,1026 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ploeh.QualityTools.AutoFixture</name>
+    </assembly>
+    <members>
+        <member name="T:Ploeh.QualityTools.AutoFixture.DoubleSequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.DoubleSequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.DoubleSequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.DoubleSequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.DoubleSequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.ByteSequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ByteSequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.ByteSequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ByteSequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ByteSequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.IBuilder">
+            <summary>
+            General-purpose interface to build objects.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.IBuilder.Create(System.Object)">
+            <summary>
+            Creates a new object of whatever type the <see cref="T:Ploeh.QualityTools.AutoFixture.IBuilder"/> instance builds.
+            </summary>
+            <returns>A new object.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.UInt64SequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt64SequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.UInt64SequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt64SequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt64SequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.MemberInfoNameComparer">
+            <summary>
+            Compares <see cref="T:System.Reflection.MemberInfo"/> instances.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.MemberInfoNameComparer.Equals(System.Reflection.MemberInfo,System.Reflection.MemberInfo)">
+            <summary>
+            Compares two <see cref="T:System.Reflection.MemberInfo"/> instances for equality.
+            </summary>
+            <param name="x">The first instance to compare.</param>
+            <param name="y">The second instance to compare.</param>
+            <returns>
+            <see langword="true"/> if <paramref name="x"/> and <paramref name="y"/> has the same
+            name; otherwise, <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.MemberInfoNameComparer.GetHashCode(System.Reflection.MemberInfo)">
+            <summary>
+            Returns the hash code of the <see cref="T:System.Reflection.MemberInfo"/> instance's
+            <see cref="P:System.Reflection.MemberInfo.Name"/>.
+            </summary>
+            <param name="obj">The <see cref="T:System.Reflection.MemberInfo"/> for which to return a hash code.</param>
+            <returns>
+            The hash code of the <see cref="T:System.Reflection.MemberInfo"/> instance's <see cref="P:System.Reflection.MemberInfo.Name"/>.
+            </returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.Int32SequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int32SequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.Int32SequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int32SequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int32SequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1">
+            <summary>
+            Creates object by returning objects that were already created by some external mechanism.
+            </summary>
+            <typeparam name="T">The type of object to create.</typeparam>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1">
+            <summary>
+            Customizes and creates anonymous object instances of a given type.
+            </summary>
+            <typeparam name="T">The type of object to create.</typeparam>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.#ctor(System.Collections.Generic.IDictionary{System.Type,System.Func{System.Object,System.Object}})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1"/> class.
+            </summary>
+            <param name="typeMappings">
+            A dictionary of type mappings that defines how objects of specific types will be
+            created.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.CreateAnonymous">
+            <summary>
+            Creates an anonymous object.
+            </summary>
+            <returns>An anonymous object.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.CreateAnonymous(`0)">
+            <summary>
+            Creates an anonymous object with a seed.
+            </summary>
+            <param name="seed">
+            An initial value that may or may not be used as input for the algorithm creating the
+            return value.
+            </param>
+            <returns>An anonymous object.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.Do(System.Action{`0})">
+            <summary>
+            Performs the specified action on the object being built.
+            </summary>
+            <param name="action">The action to perform.</param>
+            <returns>
+            An <see cref="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1"/> that can be used to create anonymous objects, or
+            further customize the creation algorithm.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.OmitAutoProperties">
+            <summary>
+            Instructs the <see cref="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1"/> to not assign values to writable properties
+            when subsequently creating an anonymous object.
+            </summary>
+            <returns>
+            An <see cref="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1"/> that can be used to create anonymous objects, or
+            further customize the creation algorithm.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.With``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+            <summary>
+            Registers that a writable property or field should be assigned a value when an object
+            is subsequently created.
+            </summary>
+            <typeparam name="TProperty">The type of the property or field.</typeparam>
+            <param name="propertyPicker">
+            An expression that identifies the property or field that will should have a value
+            assigned.
+            </param>
+            <returns>
+            An <see cref="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1"/> that can be used to create anonymous objects, or
+            further customize the creation algorithm.
+            </returns>
+            <remarks>
+            <para>
+            While the default behavior is that writable properties or fields are automatically
+            assigned values, <see cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.OmitAutoProperties"/> can change this behavior. In this
+            case, the With method offers an explicit opt-in functionality. When used without
+            OmitAutoProperties, this With overload has no particular effect, since a value would
+            have been assigned none the less.
+            </para>
+            </remarks>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.OmitAutoProperties"/>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.With``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)"/>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.Without``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})"/>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.With``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)">
+            <summary>
+            Registers that a writable property or field should be assigned a specific value when an
+            object subsequently is created.
+            </summary>
+            <typeparam name="TProperty">The type of the property or field to assign.</typeparam>
+            <param name="propertyPicker">
+            An expression that identifies the property or field that will have
+            <paramref name="value"/> assigned.
+            </param>
+            <param name="value">
+            The value to assign to the property or field identified by
+            <paramref name="propertyPicker"/>.
+            </param>
+            <returns>
+            An <see cref="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1"/> that can be used to create anonymous objects, or
+            further customize the creation algorithm.
+            </returns>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.With``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})"/>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.Without``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})"/>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.Without``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})">
+            <summary>
+            Registers that a writable property should not be assigned any automatic value when an
+            object is subsequently created.
+            </summary>
+            <typeparam name="TProperty">The type of the property or field to ignore.</typeparam>
+            <param name="propertyPicker">
+            An expression that identifies the property or field to be ignored.
+            </param>
+            <returns>
+            An <see cref="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1"/> that can be used to create anonymous objects, or
+            further customize the creation algorithm.
+            </returns>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.With``1(System.Linq.Expressions.Expression{System.Func{`0,``0}})"/>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.With``1(System.Linq.Expressions.Expression{System.Func{`0,``0}},``0)"/>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.OmitAutoProperties"/>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1.Create(`0)">
+            <summary>
+            Creates an anonymous object.
+            </summary>
+            <returns>An anonymous object.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1.#ctor(System.Collections.Generic.IDictionary{System.Type,System.Func{System.Object,System.Object}},`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1"/> class.
+            </summary>
+            <param name="typeMappings">
+            A dictionary of type mappings that defines how objects of specific types will be
+            created.
+            </param>
+            <param name="createdObject">
+            The already created object that will be returned unmodified by <see cref="M:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1.Create(`0)"/>.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1.Create(`0)">
+            <summary>
+            Returns the already created object that was supplied through the instance's
+            constructor.
+            </summary>
+            <returns>The object that was supplied through the instance's constructor</returns>
+        </member>
+        <member name="P:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1.CreatedObject">
+            <summary>
+            Gets the already created object that was supplied through the instance's constructor.
+            </summary>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.DecimalSequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.DecimalSequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.Int64SequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.DecimalSequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.DecimalSequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.BooleanSwitch">
+            <summary>
+            Creates an alternating sequence of <see langword="true"/> and <see langword="false"/>,
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.BooleanSwitch.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.BooleanSwitch"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.BooleanSwitch.CreateAnonymous">
+            <summary>
+            Returns an alternating sequence of <see langword="true"/> and <see langword="false"/>
+            every other time it is invoked.
+            </summary>
+            <returns>
+            <see langword="true"/>, followed by <see langword="false"/> at the next invocation, and
+            so on.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.BooleanSwitch.CreateAnonymous(System.Object)">
+            <summary>
+            Returns an alternating sequence of <see langword="true"/> and <see langword="false"/>
+            every other time it is invoked.
+            </summary>
+            <returns>
+            <see langword="true"/>, followed by <see langword="false"/> at the next invocation, and
+            so on.
+            </returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.GuidStringGenerator">
+            <summary>
+            Creates strings based on an optional suffix string and <see cref="T:System.Guid"/>.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.GuidStringGenerator.CreateAnonymous(System.String)">
+            <summary>
+            Creates an anonymous string by converting a new <see cref="T:System.Guid"/> to a string and
+            prefixing it wiht an optional name.
+            </summary>
+            <param name="name">
+            An optional name that will be prefixed to the generated <see cref="T:System.Guid"/> string, if
+            supplied.
+            </param>
+            <returns>
+            A string consisting of <paramref name="name"/> concatenated with a <see cref="T:System.Guid"/>
+            string.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.GuidStringGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous string by converting a new <see cref="T:System.Guid"/> to a string and
+            prefixing it wiht an optional name.
+            </summary>
+            <param name="seed">
+            An optional name that will be prefixed to the generated <see cref="T:System.Guid"/> string, if
+            supplied. Must be a string.
+            </param>
+            <returns>
+            A string consisting of <paramref name="seed"/> concatenated with a <see cref="T:System.Guid"/>
+            string.
+            </returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.Fixture">
+            <summary>
+            Provides anonymous object creation service.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.Fixture"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.AddManyTo``1(System.Collections.Generic.ICollection{``0})">
+            <summary>
+            Adds many anonymously created objects to a list.
+            </summary>
+            <typeparam name="T">The type of object that is contained in the list.</typeparam>
+            <param name="collection">
+            The list to which the anonymously created objects will be added.
+            </param>
+            <remarks>
+            <para>
+            The number of objects created and added is determined by <see cref="P:Ploeh.QualityTools.AutoFixture.Fixture.RepeatCount"/>.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.AddManyTo``1(System.Collections.Generic.ICollection{``0},System.Func{``0})">
+            <summary>
+            Adds many objects to a list using the provided function to create each object.
+            </summary>
+            <typeparam name="T">The type of object that is contained in the list.</typeparam>
+            <param name="collection">
+            The list to which the created objects will be added.
+            </param>
+            <param name="creator">
+            The function that creates each object which is subsequently added to
+            <paramref name="collection"/>.
+            </param>
+            <remarks>
+            <para>
+            The number of objects created and added is determined by <see cref="P:Ploeh.QualityTools.AutoFixture.Fixture.RepeatCount"/>.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Build``1">
+            <summary>
+            Customizes the creation algorithm for a single object.
+            </summary>
+            <typeparam name="T">
+            The type of object for which the algorithm should be customized.
+            </typeparam>
+            <returns>
+            A <see cref="T:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1"/> that can be used to customize the creation
+            algorithm before creating the object.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.CreateAnonymous``1">
+            <summary>
+            Creates an anonymous object.
+            </summary>
+            <typeparam name="T">The type of object to create.</typeparam>
+            <returns>An anonymous object of type <typeparamref name="T"/>.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.CreateAnonymous``1(``0)">
+            <summary>
+            Creates an anonymous object, potentially using the supplied seed as additional
+            information when creating the object.
+            </summary>
+            <param name="seed">
+            Any data that adds additional information when creating the anonymous object.
+            </param>
+            <returns>An anonymous object.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.CreateMany``1">
+            <summary>
+            Creates many anonymous objects.
+            </summary>
+            <typeparam name="T">The type of objects to create.</typeparam>
+            <returns>A sequence of anonymous object of type <typeparamref name="T"/>.</returns>
+            <remarks>
+            <para>
+            The number of objects created is determined by <see cref="P:Ploeh.QualityTools.AutoFixture.Fixture.RepeatCount"/>.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Customize``1(System.Func{Ploeh.QualityTools.AutoFixture.LatentObjectBuilder{``0},Ploeh.QualityTools.AutoFixture.ObjectBuilder{``0}})">
+            <summary>
+            Customizes the creation algorithm for all objects of a given type.
+            </summary>
+            <typeparam name="T">The type of object to customize.</typeparam>
+            <param name="builderTransform">
+            A function that customizes a given <see cref="T:Ploeh.QualityTools.AutoFixture.ObjectBuilder`1"/> and returns the
+            modified  builder.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Do``1(System.Action{``0})">
+            <summary>
+            Invokes the supplied action with an anonymous parameter value.
+            </summary>
+            <typeparam name="T">The type of the anonymous parameter.</typeparam>
+            <param name="action">The action to invoke.</param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Do``2(System.Action{``0,``1})">
+            <summary>
+            Invokes the supplied action with anonymous parameter values.
+            </summary>
+            <typeparam name="T1">The type of the first anonymous parameter.</typeparam>
+            <typeparam name="T2">The type of the second anonymous parameter.</typeparam>
+            <param name="action">The action to invoke.</param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Do``3(System.Action{``0,``1,``2})">
+            <summary>
+            Invokes the supplied action with anonymous parameter values.
+            </summary>
+            <typeparam name="T1">The type of the first anonymous parameter.</typeparam>
+            <typeparam name="T2">The type of the second anonymous parameter.</typeparam>
+            <typeparam name="T3">The type of the third anonymous parameter.</typeparam>
+            <param name="action">The action to invoke.</param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Do``4(System.Action{``0,``1,``2,``3})">
+            <summary>
+            Invokes the supplied action with anonymous parameter values.
+            </summary>
+            <typeparam name="T1">The type of the first anonymous parameter.</typeparam>
+            <typeparam name="T2">The type of the second anonymous parameter.</typeparam>
+            <typeparam name="T3">The type of the third anonymous parameter.</typeparam>
+            <typeparam name="T4">The type of the fourth anonymous parameter.</typeparam>
+            <param name="action">The action to invoke.</param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Get``2(System.Func{``0,``1})">
+            <summary>
+            Invokes the supplied function with an anonymous parameter value and returns the result.
+            </summary>
+            <typeparam name="T">The type of the anonymous parameter.</typeparam>
+            <typeparam name="TResult">The return type.</typeparam>
+            <param name="function">The function to invoke.</param>
+            <returns>The return value of <paramref name="function"/>.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Get``3(System.Func{``0,``1,``2})">
+            <summary>
+            Invokes the supplied function with anonymous parameter values and returns the result.
+            </summary>
+            <typeparam name="T1">The type of the first anonymous parameter.</typeparam>
+            <typeparam name="T2">The type of the second anonymous parameter.</typeparam>
+            <typeparam name="TResult">The return type.</typeparam>
+            <param name="function">The function to invoke.</param>
+            <returns>The return value of <paramref name="function"/>.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Get``4(System.Func{``0,``1,``2,``3})">
+            <summary>
+            Invokes the supplied function with anonymous parameter values and returns the result.
+            </summary>
+            <typeparam name="T1">The type of the first anonymous parameter.</typeparam>
+            <typeparam name="T2">The type of the second anonymous parameter.</typeparam>
+            <typeparam name="T3">The type of the third anonymous parameter.</typeparam>
+            <typeparam name="TResult">The return type.</typeparam>
+            <param name="function">The function to invoke.</param>
+            <returns>The return value of <paramref name="function"/>.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Get``5(System.Func{``0,``1,``2,``3,``4})">
+            <summary>
+            Invokes the supplied function with anonymous parameter values and returns the result.
+            </summary>
+            <typeparam name="T1">The type of the first anonymous parameter.</typeparam>
+            <typeparam name="T2">The type of the second anonymous parameter.</typeparam>
+            <typeparam name="T3">The type of the third anonymous parameter.</typeparam>
+            <typeparam name="T4">The type of the fourth anonymous parameter.</typeparam>
+            <typeparam name="TResult">The return type.</typeparam>
+            <param name="function">The function to invoke.</param>
+            <returns>The return value of <paramref name="function"/>.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Register``1(System.Func{``0})">
+            <summary>
+            Registers a creation function for a specifc type.
+            </summary>
+            <typeparam name="T">
+            The type for which <paramref name="creator"/> should be registered.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create objects of type <typeparamref name="T"/> every
+            time the <see cref="T:Ploeh.QualityTools.AutoFixture.Fixture"/> is asked to create an object of that type.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Register``2(System.Func{``0,``1})">
+            <summary>
+            Registers a creation function for a specific type, when that creation function requires
+            a single input parameter.
+            </summary>
+            <typeparam name="TInput">
+            The type of the input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="T">
+            The type for which <paramref name="creator"/> should be registered.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create objects of type <typeparamref name="T"/> every
+            time the <see cref="T:Ploeh.QualityTools.AutoFixture.Fixture"/> is asked to create an object of that type.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Register``3(System.Func{``0,``1,``2})">
+            <summary>
+            Registers a creation function for a specific type, when that creation function requires
+            two input parameters.
+            </summary>
+            <typeparam name="TInput1">
+            The type of the first input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput2">
+            The type of the second input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="T">
+            The type for which <paramref name="creator"/> should be registered.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create objects of type <typeparamref name="T"/> every
+            time the <see cref="T:Ploeh.QualityTools.AutoFixture.Fixture"/> is asked to create an object of that type.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Register``4(System.Func{``0,``1,``2,``3})">
+            <summary>
+            Registers a creation function for a specific type, when that creation function requires
+            three input parameters.
+            </summary>
+            <typeparam name="TInput1">
+            The type of the first input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput2">
+            The type of the second input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput3">
+            The type of the third input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="T">
+            The type for which <paramref name="creator"/> should be registered.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create objects of type <typeparamref name="T"/> every
+            time the <see cref="T:Ploeh.QualityTools.AutoFixture.Fixture"/> is asked to create an object of that type.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Register``5(System.Func{``0,``1,``2,``3,``4})">
+            <summary>
+            Registers a creation function for a specific type, when that creation function requires
+            four input parameters.
+            </summary>
+            <typeparam name="TInput1">
+            The type of the first input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput2">
+            The type of the second input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput3">
+            The type of the third input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput4">
+            The type of the fourth input parameter used by <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="T">
+            The type for which <paramref name="creator"/> should be registered.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create objects of type <typeparamref name="T"/> every
+            time the <see cref="T:Ploeh.QualityTools.AutoFixture.Fixture"/> is asked to create an object of that type.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Fixture.Repeat``1(System.Func{``0})">
+            <summary>
+            Repeats a function many times.
+            </summary>
+            <typeparam name="T">
+            The type of object that <paramref name="function"/> creates.
+            </typeparam>
+            <param name="function">
+            A function that creates an instance of <typeparamref name="T"/>.
+            </param>
+            <returns>A sequence of objects created by <paramref name="function"/>.</returns>
+            <remarks>
+            <para>
+            The number of times <paramref name="function"/> is invoked is determined by
+            <see cref="P:Ploeh.QualityTools.AutoFixture.Fixture.RepeatCount"/>.
+            </para>
+            </remarks>
+        </member>
+        <member name="P:Ploeh.QualityTools.AutoFixture.Fixture.RepeatCount">
+            <summary>
+            Gets or sets a number that controls how many objects are created when a
+            <see cref="T:Ploeh.QualityTools.AutoFixture.Fixture"/> creates more than one anonymous objects.
+            </summary>
+            <remarks>
+            <para>
+            The default value is 3.
+            </para>
+            </remarks>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.Fixture.AddManyTo``1(System.Collections.Generic.ICollection{``0})"/>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.Fixture.AddManyTo``1(System.Collections.Generic.ICollection{``0},System.Func{``0})"/>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.Fixture.CreateMany``1"/>
+            <seealso cref="M:Ploeh.QualityTools.AutoFixture.Fixture.Repeat``1(System.Func{``0})"/>
+        </member>
+        <member name="P:Ploeh.QualityTools.AutoFixture.Fixture.TypeMappings">
+            <summary>
+            Gets a dictionary of type mappings that defines how objects of specific types will be
+            created.
+            </summary>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.UInt16SequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt16SequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.UInt16SequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt16SequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt16SequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.SingleSequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.SingleSequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.SingleSequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.SingleSequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.SingleSequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.Int64SequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int64SequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.Int64SequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int64SequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int64SequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.Likeness">
+            <summary>
+            Provides Reflection-based object equality comparison for use when comparing two
+            semantically equivalent, but different, objects.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Likeness.#ctor(System.Object)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.Likeness"/> class with the supplied object
+            as a blueprint.
+            </summary>
+            <param name="value">
+            The value against which <see cref="M:Ploeh.QualityTools.AutoFixture.Likeness.Equals(System.Object)"/> will be evaluated.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Likeness.Equals(System.Object)">
+            <summary>
+            Compares the internal "blueprint" value with the supplied object for equality.
+            </summary>
+            <param name="obj">
+            An object to evaluate against the internal "blueprint" object.
+            </param>
+            <returns>
+            <see langword="true"/> if <paramref name="obj"/> contains <em>all</em> the same
+            properties as the internal blueprint object, and all values are equal; otherwise,
+            <see langword="false"/>.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Likeness.GetHashCode">
+            <summary>
+            Returns a hash code for the current internal "blueprint" object.
+            </summary>
+            <returns>A hash code for the current internal "blueprint" object.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Likeness.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents the contained object.
+            </summary>
+            <returns>A <see cref="T:System.String"/> representation of the contained object.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.GuidGenerator">
+            <summary>
+            Creates new <see cref="T:System.Guid"/> instances.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.GuidGenerator.CreateAnonymous">
+            <summary>
+            Creates a new <see cref="T:System.Guid"/> instance.
+            </summary>
+            <returns>A new <see cref="T:System.Guid"/> instance.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.GuidGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates a new <see cref="T:System.Guid"/> instance.
+            </summary>
+            <param name="seed">Ignored.</param>
+            <returns>A new <see cref="T:System.Guid"/> instance.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.ListGenerator">
+            <summary>
+            Contains extension methods that works with lists in a repeatable fashion.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ListGenerator.AddMany``1(System.Collections.Generic.ICollection{``0},System.Func{``0},System.Int32)">
+            <summary>
+            Adds many objects to a list.
+            </summary>
+            <typeparam name="T">The type of object contained within the list.</typeparam>
+            <param name="collection">The collection to which objects should be added.</param>
+            <param name="creator">
+            A function that will be called many times to create objects that will be added to
+            <paramref name="collection"/>.</param>
+            <param name="repeatCount">
+            The number of times <paramref name="creator"/> is invoked, and hence the number of
+            items added to <paramref name="collection"/>.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.ListGenerator.Repeat``1(System.Func{``0},System.Int32)">
+            <summary>
+            Repeats a function a specified number of times and returns a sequence of the created
+            objects.
+            </summary>
+            <typeparam name="T">
+            The type of objects contained within in the returned sequence.
+            </typeparam>
+            <param name="function">
+            A function that will be called many times to create objects that will be returned as a
+            sequence.
+            </param>
+            <param name="repeatCount">
+            The number of times <paramref name="function"/> is invoked, and hence the number of
+            items returned.
+            </param>
+            <returns>
+            A sequence of objects created by <paramref name="function"/>.
+            </returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1">
+            <summary>
+            Creates objects by invoking a specified constructor, possibly using anonymous constructor
+            arguments.
+            </summary>
+            <typeparam name="T">The type of object to create.</typeparam>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1.#ctor(System.Collections.Generic.IDictionary{System.Type,System.Func{System.Object,System.Object}})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1"/> class.
+            </summary>
+            <param name="typeMappings">
+            A dictionary of type mappings that defines how objects of specific types will be
+            created.
+            </param>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1.WithConstructor(System.Func{`0})">
+            <summary>
+            Specifies that an anonymous object should be created in a particular way; often by
+            using a constructor.
+            </summary>
+            <param name="creator">
+            A function that will be used to create the object. This will often be a constructor.
+            </param>
+            <returns>
+            A <see cref="T:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1"/> that can be used to create anonymous objects,
+            or further customize the creation algorithm.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1.WithConstructor``1(System.Func{``0,`0})">
+            <summary>
+            Specifies that an anonymous object should be created in a particular way, using a
+            single input parameter for the construction.
+            </summary>
+            <typeparam name="TInput">
+            The type of input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create the object. This will often be a constructor
+            that takes a single constructor argument of type <typeparamref name="TInput"/>.
+            </param>
+            <returns>
+            A <see cref="T:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1"/> that can be used to create anonymous objects,
+            or further customize the creation algorithm.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1.WithConstructor``2(System.Func{``0,``1,`0})">
+            <summary>
+            Specifies that an anonymous object should be created in a particular way, using two
+            input parameters for the construction.
+            </summary>
+            <typeparam name="TInput1">
+            The type of the first input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput2">
+            The type of the second input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create the object. This will often be a constructor
+            that takes two constructor arguments of type <typeparamref name="TInput1"/> and
+            <typeparamref name="TInput2"/>.
+            </param>
+            <returns>
+            A <see cref="T:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1"/> that can be used to create anonymous objects,
+            or further customize the creation algorithm.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1.WithConstructor``3(System.Func{``0,``1,``2,`0})">
+            <summary>
+            Specifies that an anonymous object should be created in a particular way, using three
+            input parameters for the construction.
+            </summary>
+            <typeparam name="TInput1">
+            The type of the first input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput2">
+            The type of the second input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput3">
+            The type of the third input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create the object. This will often be a constructor
+            that takes three constructor arguments of type <typeparamref name="TInput1"/>,
+            <typeparamref name="TInput2"/> and <typeparamref name="TInput3"/>.
+            </param>
+            <returns>
+            A <see cref="T:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1"/> that can be used to create anonymous
+            objects, or further customize the creation algorithm.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1.WithConstructor``4(System.Func{``0,``1,``2,``3,`0})">
+            <summary>
+            Specifies that an anonymous object should be created in a particular way, using four
+            input parameters for the construction.
+            </summary>
+            <typeparam name="TInput1">
+            The type of the first input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput2">
+            The type of the second input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput3">
+            The type of the third input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <typeparam name="TInput4">
+            The type of the fourth input parameter to use when invoking <paramref name="creator"/>.
+            </typeparam>
+            <param name="creator">
+            A function that will be used to create the object. This will often be a constructor
+            that takes three constructor arguments of type <typeparamref name="TInput1"/>,
+            <typeparamref name="TInput2"/>, <typeparamref name="TInput3"/> and
+            <typeparamref name="TInput4"/>.
+            </param>
+            <returns>
+            A <see cref="T:Ploeh.QualityTools.AutoFixture.ManifestedObjectBuilder`1"/> that can be used to create anonymous
+            objects, or further customize the creation algorithm.
+            </returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.LatentObjectBuilder`1.Create(`0)">
+            <summary>
+            Creates an anonymous object.
+            </summary>
+            <returns>An anonymous object.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.UInt32SequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt32SequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.UInt32SequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt32SequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.UInt32SequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.SByteSequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.SByteSequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.SByteSequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.SByteSequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.SByteSequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="T:Ploeh.QualityTools.AutoFixture.Int16SequenceGenerator">
+            <summary>
+            Creates a sequence of consecutive numbers, starting at 1.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int16SequenceGenerator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Ploeh.QualityTools.AutoFixture.Int16SequenceGenerator"/> class.
+            </summary>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int16SequenceGenerator.CreateAnonymous">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+        <member name="M:Ploeh.QualityTools.AutoFixture.Int16SequenceGenerator.CreateAnonymous(System.Object)">
+            <summary>
+            Creates an anonymous number.
+            </summary>
+            <returns>The next number in a consequtive sequence.</returns>
+        </member>
+    </members>
+</doc>

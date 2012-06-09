@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CommerceModelStoreContainer" CdmEntityContainer="CommerceObjectContext">
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="IsTypeOf(CommerceModel.Product)">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="DiscountedUnitPrice" ColumnName="DiscountedUnitPrice" />
+          <ScalarProperty Name="IsFeatured" ColumnName="Featured" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BasketLines">
+      <EntityTypeMapping TypeName="IsTypeOf(CommerceModel.BasketLine)">
+        <MappingFragment StoreEntitySet="BasketLine">
+          <ScalarProperty Name="UtcUpdated" ColumnName="UtcUpdated" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="IsTypeOf(CommerceModel.User)">
+        <MappingFragment StoreEntitySet="aspnet_Users">
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="IsAnonymous" ColumnName="IsAnonymous" />
+          <ScalarProperty Name="MobileAlias" ColumnName="MobileAlias" />
+          <ScalarProperty Name="LoweredUserName" ColumnName="LoweredUserName" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK__BasketLin__UserI__01142BA1" TypeName="CommerceModel.FK__BasketLin__UserI__01142BA1" StoreEntitySet="BasketLine">
+      <EndProperty Name="BasketLine">
+        <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+        <ScalarProperty Name="UserId" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="aspnet_Users">
+        <ScalarProperty Name="UserId" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK__BasketLin__Produ__00200768" TypeName="CommerceModel.FK__BasketLin__Produ__00200768" StoreEntitySet="BasketLine">
+      <EndProperty Name="BasketLine">
+        <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+        <ScalarProperty Name="UserId" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="Product">
+        <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="ExchangeRates">
+      <EntityTypeMapping TypeName="IsTypeOf(CommerceModel.ExchangeRate)">
+        <MappingFragment StoreEntitySet="ExchangeRate">
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="CurrencyCode" ColumnName="CurrencyCode" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuditEvents">
+      <EntityTypeMapping TypeName="IsTypeOf(CommerceModel.AuditEvent)">
+        <MappingFragment StoreEntitySet="AuditEvent">
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuditProductsDeleted">
+      <EntityTypeMapping TypeName="IsTypeOf(CommerceModel.AuditProductDeleted)">
+        <MappingFragment StoreEntitySet="AuditProductDeleted">
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuditProductsInserted">
+      <EntityTypeMapping TypeName="IsTypeOf(CommerceModel.AuditProductInserted)">
+        <MappingFragment StoreEntitySet="AuditProductInserted">
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuditProductsUpdated">
+      <EntityTypeMapping TypeName="IsTypeOf(CommerceModel.AuditProductUpdated)">
+        <MappingFragment StoreEntitySet="AuditProductUpdated">
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK__AuditProd__Audit__123EB7A3" TypeName="CommerceModel.FK__AuditProd__Audit__123EB7A3" StoreEntitySet="AuditProductDeleted">
+      <EndProperty Name="AuditProductDeleted">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <EndProperty Name="AuditEvent">
+        <ScalarProperty Name="Id" ColumnName="AuditEventId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK__AuditProd__Audit__17036CC0" TypeName="CommerceModel.FK__AuditProd__Audit__17036CC0" StoreEntitySet="AuditProductInserted">
+      <EndProperty Name="AuditProductInserted">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <EndProperty Name="AuditEvent">
+        <ScalarProperty Name="Id" ColumnName="AuditEventId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK__AuditProd__Audit__1BC821DD" TypeName="CommerceModel.FK__AuditProd__Audit__1BC821DD" StoreEntitySet="AuditProductUpdated">
+      <EndProperty Name="AuditProductUpdated">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+      <EndProperty Name="AuditEvent">
+        <ScalarProperty Name="Id" ColumnName="AuditEventId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

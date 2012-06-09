@@ -1,0 +1,4 @@
+﻿<%@ ServiceHost
+    Factory = "Ploeh.Samples.CommerceService.CommerceServiceHostFactory, Ploeh.Samples.CommerceService"
+    Service = "Ploeh.Samples.CommerceService.ProductManagementService"
+%>

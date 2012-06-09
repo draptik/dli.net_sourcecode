@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CommerceModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="CommerceObjectContext">
+    <EntitySet Name="Products" EntityType="CommerceModel.Product" />
+    <EntitySet Name="BasketLines" EntityType="CommerceModel.BasketLine" />
+    <EntitySet Name="Users" EntityType="CommerceModel.User" />
+    <AssociationSet Name="FK__BasketLin__UserI__01142BA1" Association="CommerceModel.FK__BasketLin__UserI__01142BA1">
+      <End Role="aspnet_Users" EntitySet="Users" />
+      <End Role="BasketLine" EntitySet="BasketLines" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BasketLin__Produ__00200768" Association="CommerceModel.FK__BasketLin__Produ__00200768">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="BasketLine" EntitySet="BasketLines" />
+    </AssociationSet>
+    <EntitySet Name="ExchangeRates" EntityType="CommerceModel.ExchangeRate" />
+    <EntitySet Name="AuditEvents" EntityType="CommerceModel.AuditEvent" />
+    <EntitySet Name="AuditProductsDeleted" EntityType="CommerceModel.AuditProductDeleted" />
+    <EntitySet Name="AuditProductsInserted" EntityType="CommerceModel.AuditProductInserted" />
+    <EntitySet Name="AuditProductsUpdated" EntityType="CommerceModel.AuditProductUpdated" />
+    <AssociationSet Name="FK__AuditProd__Audit__123EB7A3" Association="CommerceModel.FK__AuditProd__Audit__123EB7A3">
+      <End Role="AuditEvent" EntitySet="AuditEvents" />
+      <End Role="AuditProductDeleted" EntitySet="AuditProductsDeleted" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AuditProd__Audit__17036CC0" Association="CommerceModel.FK__AuditProd__Audit__17036CC0">
+      <End Role="AuditEvent" EntitySet="AuditEvents" />
+      <End Role="AuditProductInserted" EntitySet="AuditProductsInserted" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AuditProd__Audit__1BC821DD" Association="CommerceModel.FK__AuditProd__Audit__1BC821DD">
+      <End Role="AuditEvent" EntitySet="AuditEvents" />
+      <End Role="AuditProductUpdated" EntitySet="AuditProductsUpdated" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="BasketLines" Relationship="CommerceModel.FK__BasketLin__Produ__00200768" FromRole="Product" ToRole="BasketLine" />
+    <Property Name="IsFeatured" Type="Boolean" Nullable="false" />
+    <Property Name="DiscountedUnitPrice" Type="Decimal" Nullable="true" />
+  </EntityType>
+  <EntityType Name="BasketLine">
+    <Key>
+      <PropertyRef Name="ProductId" />
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="CommerceModel.FK__BasketLin__UserI__01142BA1" FromRole="BasketLine" ToRole="aspnet_Users" />
+    <NavigationProperty Name="Product" Relationship="CommerceModel.FK__BasketLin__Produ__00200768" FromRole="BasketLine" ToRole="Product" />
+    <Property Name="UtcUpdated" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" />
+    <Property Name="LoweredUserName" Type="String" Nullable="false" />
+    <Property Name="MobileAlias" Type="String" Nullable="true" />
+    <Property Name="IsAnonymous" Type="Boolean" Nullable="false" />
+    <Property Name="LastActivityDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="BasketLines" Relationship="CommerceModel.FK__BasketLin__UserI__01142BA1" FromRole="aspnet_Users" ToRole="BasketLine" />
+  </EntityType>
+  <Association Name="FK__BasketLin__UserI__01142BA1">
+    <End Type="CommerceModel.User" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="CommerceModel.BasketLine" Role="BasketLine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="BasketLine">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BasketLin__Produ__00200768">
+    <End Type="CommerceModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="CommerceModel.BasketLine" Role="BasketLine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductId" />
+      </Principal>
+      <Dependent Role="BasketLine">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ExchangeRate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="CurrencyCode" Type="String" Nullable="false" />
+    <Property Name="Rate" Type="Decimal" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AuditEvent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Time" Type="DateTime" Nullable="false" />
+    <Property Name="User" Type="String" Nullable="false" />
+    <NavigationProperty Name="AuditProductsDeleted" Relationship="CommerceModel.FK__AuditProd__Audit__123EB7A3" FromRole="AuditEvent" ToRole="AuditProductDeleted" />
+    <NavigationProperty Name="AuditProductsInserted" Relationship="CommerceModel.FK__AuditProd__Audit__17036CC0" FromRole="AuditEvent" ToRole="AuditProductInserted" />
+    <NavigationProperty Name="AuditProductsUpdated" Relationship="CommerceModel.FK__AuditProd__Audit__1BC821DD" FromRole="AuditEvent" ToRole="AuditProductUpdated" />
+  </EntityType>
+  <EntityType Name="AuditProductDeleted">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AuditEvent" Relationship="CommerceModel.FK__AuditProd__Audit__123EB7A3" FromRole="AuditProductDeleted" ToRole="AuditEvent" />
+  </EntityType>
+  <EntityType Name="AuditProductInserted">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" />
+    <NavigationProperty Name="AuditEvent" Relationship="CommerceModel.FK__AuditProd__Audit__17036CC0" FromRole="AuditProductInserted" ToRole="AuditEvent" />
+  </EntityType>
+  <EntityType Name="AuditProductUpdated">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="ProductId" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" />
+    <NavigationProperty Name="AuditEvent" Relationship="CommerceModel.FK__AuditProd__Audit__1BC821DD" FromRole="AuditProductUpdated" ToRole="AuditEvent" />
+  </EntityType>
+  <Association Name="FK__AuditProd__Audit__123EB7A3">
+    <End Type="CommerceModel.AuditEvent" Role="AuditEvent" Multiplicity="1" />
+    <End Type="CommerceModel.AuditProductDeleted" Role="AuditProductDeleted" Multiplicity="*" />
+  </Association>
+  <Association Name="FK__AuditProd__Audit__17036CC0">
+    <End Type="CommerceModel.AuditEvent" Role="AuditEvent" Multiplicity="1" />
+    <End Type="CommerceModel.AuditProductInserted" Role="AuditProductInserted" Multiplicity="*" />
+  </Association>
+  <Association Name="FK__AuditProd__Audit__1BC821DD">
+    <End Type="CommerceModel.AuditEvent" Role="AuditEvent" Multiplicity="1" />
+    <End Type="CommerceModel.AuditProductUpdated" Role="AuditProductUpdated" Multiplicity="*" />
+  </Association>
+</Schema>

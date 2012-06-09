@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object id="Ingredients" type="List&lt;IIngredient>">
+    <constructor-arg>
+      <list element-type="IIngredient">
+        <ref object="Sauce" />
+      </list>
+    </constructor-arg>
+  </object>
+  <object id="Sauce" type="SauceBéarnaise" />
+  <object id="Course" type="Course" autowire="autodetect" />
+</objects>

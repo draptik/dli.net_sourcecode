@@ -1,0 +1,12 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.DI.AntiPatternsTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.DI.AntiPatternsTest.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\Ploeh.Samples.DI.AntiPatternsTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\Ploeh.Samples.DI.AntiPatternsTest.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\Moq.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\Ploeh.Samples.DI.AntiPatterns.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\xunit.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\Ploeh.Samples.DI.AntiPatterns.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\Moq.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\Moq.xml
+C:\Users\mark\Documents\Manning\DI in .NET\Code\AntiPatterns\AntiPatternsTest\bin\AutoTest.Net\xunit.xml

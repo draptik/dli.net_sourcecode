@@ -1,0 +1,13 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.SamplesCommerce.IntegrationTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.SamplesCommerce.IntegrationTest.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\Ploeh.SamplesCommerce.IntegrationTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\Ploeh.SamplesCommerce.IntegrationTest.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\Ploeh.Samples.Commerce.Data.Sql.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\Ploeh.Samples.Commerce.Domain.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\Ploeh.Samples.Commerce.Web.PresentationModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\xunit.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\Ploeh.Samples.Commerce.Domain.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\Ploeh.Samples.Commerce.Data.Sql.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\Ploeh.Samples.Commerce.Web.PresentationModel.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceIntegrationTest\bin\AutoTest.Net\xunit.xml

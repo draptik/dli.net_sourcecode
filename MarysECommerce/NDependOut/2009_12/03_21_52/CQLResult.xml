@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CQLResult>
+  <Group Name="Layering" Status="Warn">
+    <Query Status="Warn" Name="DomainModel isolated from SqlDataAccess" NbNodeMatched="1" NbNodeTested="11" KindOfNode=" assemblies">
+      <QueryHtml>&lt;font color='#008000'&gt;//&amp;#0160;&amp;lt;Name&amp;gt;&lt;/font&gt;&lt;b style="color:#008000;background-color:#E6FFE6"&gt;DomainModel&amp;#0160;isolated&amp;#0160;from&amp;#0160;SqlDataAccess&lt;/b&gt;&lt;font color='#008000'&gt;&amp;lt;/Name&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#0000FF'&gt;WARN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IF&lt;/font&gt;&amp;#0160;&lt;font color='#000064'&gt;Count&lt;/font&gt;&amp;#0160;&lt;font color='#000000'&gt;&amp;gt;&lt;/font&gt;&amp;#0160;&lt;b style="color:#000000;background-color:#FFFF99"&gt;0&lt;/b&gt;&amp;#0160;&lt;font color='#0000FF'&gt;IN&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;SELECT&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;ASSEMBLIES&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;WHERE&lt;/font&gt;&lt;font color='#000000'&gt;&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#000064'&gt;IsDirectlyUsing&lt;/font&gt;&amp;#0160;&lt;font color='#A31515'&gt;"ASSEMBLY:Ploeh.Samples.Mary.ECommerce.Data.Sql"&lt;/font&gt;&amp;#0160;&lt;font color='#0000FF'&gt;AND&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#000064'&gt;NameIs&lt;/font&gt;&amp;#0160;&lt;font color='#A31515'&gt;"Ploeh.Samples.Mary.ECommerce.Domain"&lt;/font&gt;&lt;font color='#000000'&gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;the&amp;#0160;assembly&amp;#0160;&amp;lt;b&amp;gt;Ploeh.Samples.Mary.ECommerce.Domain&amp;lt;/b&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;shouldn't&amp;#0160;use&amp;#0160;directly&amp;#0160;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;the&amp;#0160;assembly&amp;#0160;&amp;lt;b&amp;gt;Ploeh.Samples.Mary.ECommerce.Data.Sql&amp;lt;/b&amp;gt;&lt;br/&gt;&lt;/font&gt;&lt;font color='#008000'&gt;//&amp;#0160;because&amp;#0160;it&amp;#0160;validates&amp;#0160;layering&lt;br/&gt;&lt;/font&gt;</QueryHtml>
+      <Columns>
+        <Column>assemblies</Column>
+        <Column>DepthOfIsUsing "ASSEMBLY:Ploeh.Samples.Mary.ECommerce.Data.Sql"</Column>
+      </Columns>
+      <Rows>
+        <Row Name="Ploeh.Samples.Mary.ECommerce.Domain" FullName="Ploeh.Samples.Mary.ECommerce.Domain">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Sum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Average:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Minimum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Maximum:" FullName="Stat">
+          <Val>1</Val>
+        </Row>
+        <Row Name="Standard deviation:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+        <Row Name="Variance:" FullName="Stat">
+          <Val>0</Val>
+        </Row>
+      </Rows>
+    </Query>
+  </Group>
+  <Group Name="Constraints extracted from Source Code" Status="Not yet compiled" />
+</CQLResult>

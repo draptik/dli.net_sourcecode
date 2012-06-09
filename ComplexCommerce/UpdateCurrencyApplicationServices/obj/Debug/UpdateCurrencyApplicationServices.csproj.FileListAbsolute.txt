@@ -1,0 +1,7 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\UpdateCurrencyApplicationServices\bin\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\UpdateCurrencyApplicationServices\bin\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\UpdateCurrencyApplicationServices\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\UpdateCurrencyApplicationServices\obj\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\UpdateCurrencyApplicationServices\obj\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\UpdateCurrencyApplicationServices\bin\Debug\Ploeh.Samples.Commerce.Domain.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\UpdateCurrencyApplicationServices\bin\Debug\Ploeh.Samples.Commerce.Domain.pdb

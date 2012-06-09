@@ -1,0 +1,13 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\_tmpIntermediateAT\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\Ploeh.Samples.Menu.Autofac.dll.config
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.Menu.Autofac.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\_tmpIntermediateAT\Ploeh.Samples.Menu.Autofac.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\Ploeh.Samples.Menu.Autofac.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\Ploeh.Samples.Menu.Autofac.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\Autofac.Configuration.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\Autofac.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\Ploeh.Samples.MenuModel.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\xunit.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\Ploeh.Samples.MenuModel.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\Autofac.xml
+C:\Users\mark\Documents\Manning\DI in .NET\Code\DIContainers\AutofacMenu\bin\AutoTest.Net\xunit.xml

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ApplicationMetrics NAsm="3" NbLinesOfCode="141" NbLinesOfComment="131" PercentageComment="48" NType="14" NClass="11" NAbstractClass="0" NInterface="3" NValueType="0" NExceptionType="0" NAttributeType="0" NDelegateType="0" NEnumType="0" NGenericMethodsDefinition="0" NGenericTypesDefinition="1" NILInstruction="1178" PercentPublicType="78,57" PercentPublicMethod="87,67" PercentClassWithAtLeastOnePublicField="0">
+  <PropertyOnInterface Occ="3" Avg="0,33" StdDev="0,47" MaxVal="1" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.IMembershipService" />
+  <MethodOnInterface Occ="3" Avg="2,33" StdDev="1,25" MaxVal="4" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.IMembershipService" />
+  <ArgOnMethodOnInterface Occ="7" Avg="1,57" StdDev="1,18" MaxVal="3" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.IMembershipService.CreateUser(String,String,String)" />
+  <PublicPropertyOnClass Occ="11" Avg="1,09" StdDev="1,56" MaxVal="5" MaxName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product" />
+  <PublicMethodOnClass Occ="11" Avg="5,18" StdDev="3,59" MaxVal="12" MaxName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product" />
+  <ArgOnPublicMethodOnClass Occ="57" Avg="0,81" StdDev="1,22" MaxVal="5" MaxName="Ploeh.Samples.Mary.ECommerce.Data.Sql.Product.CreateProduct(Int32,String,String,Decimal,Boolean)" />
+  <ILInstructionInNonAbstractMethods Occ="66" Avg="17,85" StdDev="18,69" MaxVal="89" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController.ValidateRegistration(String,String,String,String)" />
+  <TypeWithTheMostILInstruction Occ="11" Avg="107,09" StdDev="148,65" MaxVal="559" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController" />
+  <MethodCC Occ="66" Avg="1,67" StdDev="1,76" MaxVal="12" MaxName="Ploeh.Samples.Mary.ECommerce.WebUI.Controllers.AccountController.ErrorCodeToString(MembershipCreateStatus)" />
+</ApplicationMetrics>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object id="Entrée" type="Rillettes" />
+  <object id="MainCourse" type="CordonBleu" />
+  <object id="Dessert" type="MousseAuChocolat" />
+  <object id="Meal" type="Ploeh.Samples.Menu.SpringNet.Adapters.Meal" autowire="autodetect" />
+</objects>

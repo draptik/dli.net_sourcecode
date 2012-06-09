@@ -1,0 +1,15 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.UnitTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.UnitTest.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Moq.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.AutoFixture.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.Samples.Commerce.Domain.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.AutoFixture.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.AutoFixture.xml
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Ploeh.Samples.Commerce.Domain.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Moq.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\bin\Debug\Moq.xml
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\obj\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.UnitTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\UpdateCurrencyUnitTest\obj\Debug\Ploeh.Samples.Commerce.UpdateCurrency.ApplicationServices.UnitTest.pdb

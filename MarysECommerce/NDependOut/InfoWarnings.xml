@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>12/03/2009 21:53:55 Begin analysis with NDepend v2.12.1.3123</Info>
+  <Info>12/03/2009 21:53:55 Retrieve dependencies of your application.</Info>
+  <Info>Don't load a previous analysis to compare with.</Info>
+  <Info>Assemblies loaded from {C:\Windows\Microsoft.NET\Framework\v2.0.50727} 
+   mscorlib.dll   v2.0.0.0
+   System.Web.dll   v2.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0} 
+   System.Runtime.Serialization.dll   v3.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5} 
+   System.Data.Entity.dll   v3.5.0.0
+   System.Core.dll   v3.5.0.0
+   System.Web.Routing.dll   v3.5.0.0
+   System.Web.Abstractions.dll   v3.5.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\MarysECommerce\SqlDataAccess\bin\Debug} 
+   Ploeh.Samples.Mary.ECommerce.Data.Sql.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\MarysECommerce\DomainLogic\bin\Debug} 
+   Ploeh.Samples.Mary.ECommerce.Domain.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\MarysECommerce\WebUI\bin} 
+   Ploeh.Samples.Mary.ECommerce.WebUI.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 1.0\Assemblies} 
+   System.Web.Mvc.dll   v1.0.0.0</Info>
+  <Info>10 source files parsed ; all source files found ; all source files in-sync with PDB</Info>
+  <Info>0 CQL constraint has been extracted from code.</Info>
+  <Info>No dependency cycle detected in assemblies referencement graph.</Info>
+  <Info>12.03.2009 21:53:58 Analyse dependencies of your application.</Info>
+  <Info>12.03.2009 21:53:58 Building the report (standard).</Info>
+</InfoWarnings>

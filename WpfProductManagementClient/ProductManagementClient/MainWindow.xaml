@@ -1,0 +1,45 @@
+﻿<Window x:Class="Ploeh.Samples.ProductManagement.WpfClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Product Management"
+        Height="300"
+        Width="300"
+        MinHeight="300"
+        MinWidth="300">
+    <Window.Resources>
+        <Style x:Key="ProductStyle" TargetType="{x:Type ListViewItem}">
+            <Setter Property="IsSelected" Value="{Binding Path=IsSelected, Mode=TwoWay}" />
+        </Style>
+    </Window.Resources>
+    <DockPanel FocusManager.FocusedElement="{Binding ElementName=productsListView}">
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <Separator />
+                <MenuItem Header="E_xit" Command="{Binding Path=CloseCommand}" />
+            </MenuItem>
+            <MenuItem Header="_Actions">
+                <MenuItem Header="_Refresh" InputGestureText="F5" Command="{Binding Path=RefreshCommand}" />
+                <MenuItem Header="_Add Product" InputGestureText="Ins" Command="{Binding Path=InsertProductCommand}" />
+                <MenuItem Header="_Edit Product" InputGestureText="Enter" Command="{Binding Path=EditProductCommand}" />
+                <MenuItem Header="_Delete Product" InputGestureText="Del" Command="{Binding Path=DeleteProductCommand}" />
+            </MenuItem>
+        </Menu>
+        <ToolBarTray DockPanel.Dock="Top" HorizontalAlignment="Stretch">
+            <ToolBar HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                <Button Command="{Binding Path=RefreshCommand}">Refresh</Button>
+                <Button Command="{Binding Path=InsertProductCommand}">Add</Button>
+                <Button Command="{Binding Path=EditProductCommand}">Edit</Button>
+                <Button Command="{Binding Path=DeleteProductCommand}">Delete</Button>
+            </ToolBar>
+        </ToolBarTray>
+        <ListView x:Name="productsListView" ItemContainerStyle="{StaticResource ProductStyle}" ItemsSource="{Binding Path=Products}" SelectionMode="Single">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Path=Id}" />
+                    <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Path=Name}" />
+                    <GridViewColumn Header="Price" DisplayMemberBinding="{Binding Path=UnitPrice}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </DockPanel>
+</Window>

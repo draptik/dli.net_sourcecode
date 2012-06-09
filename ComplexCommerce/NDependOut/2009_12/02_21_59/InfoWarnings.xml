@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>12/02/2009 21:59:35 Begin analysis with NDepend v2.12.1.3123</Info>
+  <Info>12/02/2009 21:59:36 Retrieve dependencies of your application.</Info>
+  <Info>Don't load a previous analysis to compare with.</Info>
+  <Info>Assemblies loaded from {C:\Windows\Microsoft.NET\Framework\v2.0.50727} 
+   mscorlib.dll   v2.0.0.0
+   System.Xml.dll   v2.0.0.0
+   System.Configuration.dll   v2.0.0.0
+   System.dll   v2.0.0.0
+   System.Web.dll   v2.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0} 
+   System.Runtime.Serialization.dll   v3.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5} 
+   System.Core.dll   v3.5.0.0
+   System.Data.Entity.dll   v3.5.0.0
+   System.Web.Routing.dll   v3.5.0.0
+   System.Web.Abstractions.dll   v3.5.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWeb\bin} 
+   Ploeh.Samples.Commerce.Domain.dll   v1.0.0.0
+   Ploeh.Samples.Commerce.Web.dll   v1.0.0.0
+   Ploeh.Samples.Commerce.Data.Sql.dll   v1.0.0.0
+   Ploeh.Samples.Commerce.Web.PresentationModel.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModelUnitTest\bin\Debug} 
+   Ploeh.Samples.Commerce.WebPresentationModelUnitTest.dll   v1.0.0.0
+   Ploeh.AutoFixture.dll   v0.9.0.0
+   Moq.dll   v3.1.416.3</Info>
+  <Warning>No application or tier assembly found in directory {C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceDomain\bin\Debug}</Warning>
+  <Info>Assemblies loaded from {C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceDomainUnitTest\bin\Debug} 
+   Ploeh.Samples.Commerce.DomainUnitTest.dll   v1.0.0.0</Info>
+  <Warning>No application or tier assembly found in directory {C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceSqlDataAccess\bin\Debug}</Warning>
+  <Warning>No application or tier assembly found in directory {C:\Users\mark\Documents\Manning\DI in .NET\Code\ComplexCommerce\CommerceWebPresentationModel\bin\Debug}</Warning>
+  <Info>Assemblies loaded from {C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 1.0\Assemblies} 
+   System.Web.Mvc.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies} 
+   Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll   v9.0.0.0</Info>
+  <Info>73 source files parsed ; all source files found ; all source files in-sync with PDB</Info>
+  <Info>0 CQL constraint has been extracted from code.</Info>
+  <Info>No dependency cycle detected in assemblies referencement graph.</Info>
+  <Info>12.02.2009 21:59:40 Analyse dependencies of your application.</Info>
+  <Info>12.02.2009 21:59:41 Building the report (standard).</Info>
+</InfoWarnings>

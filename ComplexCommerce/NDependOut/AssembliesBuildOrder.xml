@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AssemblySortForCompilOrObfusk>
+  <Assembly Assembly="Ploeh.Samples.Commerce.Domain">7</Assembly>
+  <Assembly Assembly="Ploeh.Samples.Commerce.Data.Sql">12</Assembly>
+  <Assembly Assembly="Ploeh.Samples.Commerce.Web.PresentationModel">14</Assembly>
+  <Assembly Assembly="Ploeh.Samples.Commerce.Web">15</Assembly>
+</AssemblySortForCompilOrObfusk>

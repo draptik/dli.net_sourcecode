@@ -1,0 +1,15 @@
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.Samples.Commerce.WebUnitTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.Samples.Commerce.WebUnitTest.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Moq.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.QualityTools.AutoFixture.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.Samples.Commerce.Domain.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.Samples.Commerce.Web.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.QualityTools.AutoFixture.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.QualityTools.AutoFixture.xml
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.Samples.Commerce.Web.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Ploeh.Samples.Commerce.Domain.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Moq.pdb
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\bin\Debug\Moq.xml
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\obj\Debug\Ploeh.Samples.Commerce.WebUnitTest.dll
+C:\Users\mark\Documents\Manning\DI in .NET\Code\Commerce\CommerceWebUnitTest\obj\Debug\Ploeh.Samples.Commerce.WebUnitTest.pdb

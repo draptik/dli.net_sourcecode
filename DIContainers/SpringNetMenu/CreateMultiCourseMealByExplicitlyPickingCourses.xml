@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object id="Entrée" type="Rillettes" />
+  <object id="Entrée1" type="LobsterBisque" />
+  <object id="MainCourse" type="CordonBleu" />
+  <object id="Dessert" type="MousseAuChocolat" />
+  <object id="Meal" type="Meal">
+    <constructor-arg>
+      <list element-type="ICourse">
+        <ref object="Entrée" />
+        <ref object="MainCourse" />
+        <ref object="Dessert" />
+      </list>
+    </constructor-arg>
+  </object>
+</objects>
