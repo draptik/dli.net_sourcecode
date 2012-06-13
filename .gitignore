@@ -1,7 +1,8 @@
-bin/
-obj/
-*.user
-*.suo
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.cache
 _ReSharper.*
 *.sln.cache
 _UpgradeReport_Files*
