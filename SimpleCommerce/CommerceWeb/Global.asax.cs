@@ -16,6 +16,12 @@ namespace Ploeh.Samples.Commerce.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            // The following IgnoreRoute is needed for browsers like Chrome:
+            // http://stackoverflow.com/questions/719678/custom-controller-factory-dependency-injection-structuremap-problems-with-asp
+            routes.IgnoreRoute("{*favicon}", new {favicon = @"(.*/)?favicon.ico(/.*)?"});
+
+
+
             routes.MapRoute(
                 "Default",                                              // Route name
                 "{controller}/{action}/{id}",                           // URL with parameters
